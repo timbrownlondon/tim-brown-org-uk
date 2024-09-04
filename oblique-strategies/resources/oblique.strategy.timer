@@ -1,0 +1,9 @@
+[Unit]
+Description=Update Oblique Strategy page daily
+
+[Timer]
+Unit=oblique.strategy.service
+OnCalendar=*-*-* 06:00:00
+
+[Install]
+WantedBy=timers.target
