@@ -1,27 +1,27 @@
-Wilfred Owen 25.
-John Keats 25.
-Egon Schiele 28.
-Marie Curie 66.
-Mozart 35.
-Vincent Van Gogh 37.
-Edward Thomas 39.
-Kirsty MacColl 42.
-Elvis Presley 42.
-Joe Strummer 50.
-Édouard Manet 51.
-Jane Austen 41.
-Derek Jarman 52.
-Ian Dury 57.
-Andy Warhol 58.
-Rosemary Brown 61.
-Terry Hall 63.
-Shane MacGowan 65.
-Rosa Parks 92.
-Benjamin Zephaniah 65.
-Mark Rothko 66.
-Francis Bacon 82.
-Gordon Brown 88.
-Picasso 91.
-Martin Amis 73.
-Diana Spencer 36.
-Harriet Tubman 93.
+<a href="https://www.google.com/search?q=Wilfred+Owen">Wilfred Owen</a><br>lived to the age of 25.
+<a href="https://www.google.com/search?q=John+Keats">John Keats</a><br>lived to the age of 25.
+<a href="https://www.google.com/search?q=Egon+Schiele">Egon Schiele</a><br>lived to the age of 28.
+<a href="https://www.google.com/search?q=Marie+Curie">Marie Curie</a><br>lived to the age of 66.
+<a href="https://www.google.com/search?q=Mozart">Mozart</a><br>lived to the age of 35.
+<a href="https://www.google.com/search?q=Vincent+Van+Gogh">Vincent Van Gogh</a><br>lived to the age of 37.
+<a href="https://www.google.com/search?q=Edward+Thomas">Edward Thomas</a><br>lived to the age of 39.
+<a href="https://www.google.com/search?q=Kirsty+MacColl">Kirsty MacColl</a><br>lived to the age of 42.
+<a href="https://www.google.com/search?q=Elvis+Presley">Elvis Presley</a><br>lived to the age of 42.
+<a href="https://www.google.com/search?q=Joe+Strummer">Joe Strummer</a><br>lived to the age of 50.
+<a href="https://www.google.com/search?q=&Eacute;douard+Manet">&Eacute;douard Manet</a><br>lived to the age of 51.
+<a href="https://www.google.com/search?q=Jane+Austen">Jane Austen</a><br>lived to the age of 41.
+<a href="https://www.google.com/search?q=Derek+Jarman">Derek Jarman</a><br>lived to the age of 52.
+<a href="https://www.google.com/search?q=Ian+Dury">Ian Dury</a><br>lived to the age of 57.
+<a href="https://www.google.com/search?q=Andy+Warhol">Andy Warhol</a><br>lived to the age of 58.
+<a href="https://www.google.com/search?q=Rosemary+Brown">Rosemary Brown</a><br>lived to the age of 61.
+<a href="https://www.google.com/search?q=Terry+Hall">Terry Hall</a><br>lived to the age of 63.
+<a href="https://www.google.com/search?q=Shane+MacGowan">Shane MacGowan</a><br>lived to the age of 65.
+<a href="https://www.google.com/search?q=Rosa+Parks">Rosa Parks</a><br>lived to the age of 92.
+<a href="https://www.google.com/search?q=Benjamin+Zephaniah">Benjamin Zephaniah</a><br>lived to the age of 65.
+<a href="https://www.google.com/search?q=Mark+Rothko">Mark Rothko</a><br>lived to the age of 66.
+<a href="https://www.google.com/search?q=Francis+Bacon">Francis Bacon</a><br>lived to the age of 82.
+<a href="https://www.google.com/search?q=Gordon+Brown">Gordon Brown</a><br>lived to the age of 88.
+<a href="https://www.google.com/search?q=Picasso">Picasso</a><br>lived to the age of 91.
+<a href="https://www.google.com/search?q=Martin+Amis">Martin Amis</a><br>lived to the age of 73.
+<a href="https://www.google.com/search?q=Diana+Spencer">Diana Spencer</a><br>lived to the age of 36.
+<a href="https://www.google.com/search?q=Harriet+Tubman">Harriet Tubman</a><br>lived to the age of 93.
