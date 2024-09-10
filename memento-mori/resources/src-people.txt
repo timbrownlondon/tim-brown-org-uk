@@ -1,27 +1,29 @@
-Wilfred Owen 25.
-John Keats 25.
-Egon Schiele 28.
-Marie Curie 66.
-Mozart 35.
-Vincent Van Gogh 37.
-Edward Thomas 39.
-Kirsty MacColl 42.
-Elvis Presley 42.
-Joe Strummer 50.
-&Eacute;douard Manet 51.
-Jane Austen 41.
-Derek Jarman 52.
-Ian Dury 57.
-Andy Warhol 58.
-Rosemary Brown 61.
-Terry Hall 63.
-Shane MacGowan 65.
-Rosa Parks 92.
-Benjamin Zephaniah 65.
-Mark Rothko 66.
-Francis Bacon 82.
-Gordon Brown 88.
-Picasso 91.
-Martin Amis 73.
-Diana Spencer 36.
-Harriet Tubman 93.
+Wilfred Owen,1893,1918,25
+John Keats,1795,1821,25
+Egon Schiele,1890,1918,28
+Marie Curie,1867,1934,66
+Mozart,1756,1791,35
+Vincent Van Gogh,1853,1890,37
+Edward Thomas,1878,1917,39
+Kirsty MacColl,1959,2000,42
+Elvis Presley,1935,1977,42
+Joe Strummer,1952,2002,50
+&Eacute;douard Manet,1832,1883,51
+Jane Austen,1775,1817,41
+Derek Jarman,1942,1994,52
+Ian Dury,1942,2000,57
+Andy Warhol,1928,1987,58
+Rosemary Brown,1929,1990,61
+Terry Hall,1959,2022,63
+Shane MacGowan,1957,2023,65
+Rosa Parks,1913,2005,92
+Benjamin Zephaniah,1958,2023,65
+Mark Rothko,1903,1970,66
+Francis Bacon,1909,1992,82
+Gordon Brown,1933,2021,88
+Picasso,1881,1973,91
+Martin Amis,1949,2023,73
+Diana Spencer,1961,1997,36
+David Bowie,,,
+Reg Bryant,,,
+Philip Guston,,,

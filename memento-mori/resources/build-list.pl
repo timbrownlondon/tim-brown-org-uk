@@ -4,9 +4,8 @@
 use strict;
 
 while (<>){
-  my($name, $age) = m/(.*) (\d\d)\.$/ or die "$_ - is not well formatted\n";
-  my $query = $name;
-  $query =~ s/ /+/g;
+  chomp;
+  my($name, $birth_year, $death_year, $age) = split ',', $_;
 
-  print "<a href=\"https://www.google.com/search?q=$query\">$name</a><br>lived to the age of $age.\n";
+  print "$name<br>$birth_year - $death_year<br>$age years\n";
 }
