@@ -25,5 +25,5 @@ Picasso,1881,1973,91
 Martin Amis,1949,2023,73
 Diana Spencer,1961,1997,36
 David Bowie,1947,2016,69
-Reg Bryant,1887,1979,92
+Reginald Bryant,1887,1979,92
 Philip Guston,1913,1980,66
