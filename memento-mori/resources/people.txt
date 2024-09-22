@@ -39,3 +39,6 @@ Marc Chagall,1887,1985,97,P
 Anton Chekhov,1860,1904,44,P
 Maxim Gorky,1868,1936,68,P
 Cha&iuml;m Soutine,1893,1943,50
+Alfr&eacute;d Haar,1885,1933,47
+Mark Churchill,1935,2011,76
+John Cage,1912,1992,79
