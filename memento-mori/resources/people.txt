@@ -1,40 +1,41 @@
-Wilfred Owen<br>1893 - 1918<br>25 years
-John Keats<br>1795 - 1821<br>25 years
-Egon Schiele<br>1890 - 1918<br>28 years
-Marie Curie<br>1867 - 1934<br>66 years
-Mozart<br>1756 - 1791<br>35 years
-May Neville<br>1893 - <br> years
-Vincent Van Gogh<br>1853 - 1890<br>37 years
-Edward Thomas<br>1878 - 1917<br>39 years
-Kirsty MacColl<br>1959 - 2000<br>42 years
-Alan Turing<br>1912 - 1954<br>41 years
-Elvis Presley<br>1935 - 1977<br>42 years
-Rebecca Horn<br>1944 - 2024<br>80 years
-Joe Strummer<br>1952 - 2002<br>50 years
-&Eacute;douard Manet<br>1832 - 1883<br>51 years
-Jane Austen<br>1775 - 1817<br>41 years
-Derek Jarman<br>1942 - 1994<br>52 years
-Ian Dury<br>1942 - 2000<br>57 years
-Andy Warhol<br>1928 - 1987<br>58 years
-Francisco Goya<br>1746 - 1828<br>82 years
-Rosemary Brown<br>1929 - 1990<br>61 years
-Terry Hall<br>1959 - 2022<br>63 years
-Shane MacGowan<br>1957 - 2023<br>65 years
-Rosa Parks<br>1913 - 2005<br>92 years
-Benjamin Zephaniah<br>1958 - 2023<br>65 years
-Mark Rothko<br>1903 - 1970<br>66 years
-Francis Bacon<br>1909 - 1992<br>82 years
-Gordon Brown<br>1933 - 2021<br>88 years
-Pablo Picasso<br>1881 - 1973<br>91 years
-Martin Amis<br>1949 - 2023<br>73 years
-Diana Princess of Wales<br>1961 - 1997<br>36 years
-David Bowie<br>1947 - 2016<br>69 years
-Reginald Bryant<br>1887 - 1979<br>92 years
-Philip Guston<br>1913 - 1980<br>66 years
-Georg Cantor<br>1845 - 1918<br>72 years
-John Cage<br>1912 - 1992<br>79 years
-Lucian Freud<br>1922 - 2011<br>88 years
-Napoli&eacute;on<br>1769 - 1821<br>51 years
-Marc Chagall<br>1887 - 1985<br>97 years
-Anton Chekhov<br>1860 - 1904<br>44 years
-Maxim Gorky<br>1868 - 1936<br>68 years
+Wilfred Owen,1893,1918,25
+John Keats,1795,1821,25
+Egon Schiele,1890,1918,28,P
+Marie Curie,1867,1934,66
+Mozart,1756,1791,35
+May Neville,1893,
+Vincent Van Gogh,1853,1890,37
+Edward Thomas,1878,1917,39
+Kirsty MacColl,1959,2000,42
+Alan Turing,1912,1954,41,P
+Elvis Presley,1935,1977,42
+Rebecca Horn,1944,2024,80
+Joe Strummer,1952,2002,50
+&Eacute;douard Manet,1832,1883,51
+Jane Austen,1775,1817,41
+Derek Jarman,1942,1994,52
+Ian Dury,1942,2000,57
+Andy Warhol,1928,1987,58
+Francisco Goya,1746,1828,82,P
+Rosemary Brown,1929,1990,61,P
+Terry Hall,1959,2022,63
+Shane MacGowan,1957,2023,65
+Rosa Parks,1913,2005,92
+Benjamin Zephaniah,1958,2023,65
+Mark Rothko,1903,1970,66
+Francis Bacon,1909,1992,82
+Gordon Brown,1933,2021,88,P
+Pablo Picasso,1881,1973,91
+Martin Amis,1949,2023,73
+Diana Princess of Wales,1961,1997,36
+David Bowie,1947,2016,69
+Reginald Bryant,1887,1979,92,P
+Philip Guston,1913,1980,66
+Georg Cantor,1845,1918,72,P
+John Cage,1912,1992,79
+Lucian Freud,1922,2011,88,P
+Napoli&eacute;on,1769,1821,51,P
+Marc Chagall,1887,1985,97,P
+Anton Chekhov,1860,1904,44,P
+Maxim Gorky,1868,1936,68,P
+Cha&iuml;m Soutine,1893,1943,50
