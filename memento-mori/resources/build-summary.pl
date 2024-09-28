@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 #
-# cat items.psv | ./build-summary.pl > summary.html
+# cat people.psv | ./build-summary.pl > summary.html
 use strict;
 
 while (<>){
