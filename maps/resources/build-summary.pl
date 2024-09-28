@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 #
-# cat maps.csv | ./build-summary.pl > summary.html
+# cat maps.psv | ./build-summary.pl > summary.html
 use strict;
 
 while (<>){
