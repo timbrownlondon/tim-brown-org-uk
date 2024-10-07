@@ -1,5 +1,7 @@
-h1{font-size:50px;font-weight:normal;}
-.responsive{ width:90%;height:auto;}
+h1{font-weight:normal;}
+.responsive{width:100%;height:auto;}
+.section{float:right;padding:8px;}
+.content{margin:auto;width:90%;text-align:center;}
 img{border-radius:2%;pointer-events:none;}
 /* menu icon */
 .m {
