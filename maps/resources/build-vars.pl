@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 #
-# cat maps.psv | ./build-vars.pl > vars-for-all-pages.html
+# cat data.psv | ./build-vars.pl > vars-for-all-pages.html
 use strict;
 
 while (<>){
