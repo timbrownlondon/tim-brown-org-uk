@@ -1,8 +1,7 @@
-h1{font-weight:normal;font-size:4vw;}
-p{font-size:1.8vw;}
+h1{font-weight:normal;font-size:4vw;margin: 0px 0px;}
+p{font-size:1.9vw;}
 .copy{font-size:1.2vw;text-align:center;}
 .responsive{width:100%;height:auto;}
-.section{float_:right;padding:0px;margin:0px;}
 .content{margin:auto;width:90%;}
 .foo{text-align:left;clear:left;clear:right;}
 img{border-radius:2%;pointer-events:none;}
@@ -17,7 +16,6 @@ img{border-radius:2%;pointer-events:none;}
 }
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  float_:left;
   position: relative;
   display: inline-block;
   border-radius: 5px;
@@ -40,12 +38,9 @@ img{border-radius:2%;pointer-events:none;}
   text-decoration: none;
   display: block;
 }
-
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #eee}
-
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
-
 /* Change the background color of the dropdown when the dropdown content is shown */
 .dropdown:hover {background-color:#eee;}
