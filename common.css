@@ -3,7 +3,7 @@ p{font-size:1.9vw;}
 .copy{font-size:1.2vw;text-align:center;}
 .responsive{width:100%;height:auto;}
 .content{margin:auto;width:90%;}
-.foo{text-align:left;clear:left;clear:right;}
+.center{text-align:center;margin:20px;}
 img{border-radius:2%;pointer-events:none;}
 
 /* menu icon */
