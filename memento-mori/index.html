@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<title>Tim Brown</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="/favicon.ico">
+<style>
+<!--#include virtual="/common.css"-->
+</style>
+</head>
+<body>
+<div class="content">
+<!--#include virtual="/nav.html"-->
+<!--#include file="vars.html"-->
+<h1>Memento Mori.</h1>
+<h1 class="center"><!--#echo var="TITLE"--><br><!--#echo var="BORN"--> - <!--#echo var="DIED"--><br><!--#echo var="AGE"--> years</h1>
+<!--#if expr="$ID"-->
+<img src="https://s.tim-brown.org.uk/<!--#echo var="ID"-->/large.<!--#echo var="EXT"-->" class="responsive" alt="<!--#echo var="TITLE"-->">
+<p class="copy">&copy; Tim Brown</p>
+<!--#endif -->
+</div>
+</body>
+</html>
