@@ -10,9 +10,11 @@
 </style>
 </head>
 <body>
-<div class="content">
 <!--#include virtual="/nav.html"-->
+<div class="content">
+<div class="toptitle">Maps</div>
 <!--#include file="total.html"-->
+
 <!--#if expr="$QUERY_STRING" -->
 <!--#set var="SELECTED" value="$QUERY_STRING"-->
 <!--#else -->
@@ -67,7 +69,7 @@
 <!--#elif expr="$QUERY_STRING = 47" --><!--#include file="vars-47.html"-->
 <!--#endif -->
 
-<h1>Maps: <!--#echo var="TITLE"--></h1>
+<h1><!--#echo var="TITLE"--></h1>
 <p><!--#echo var="DESC"--></p>
 <img src="https://s.tim-brown.org.uk/<!--#echo var="ID"-->/large.jpg" class="responsive" alt="<!--#echo var="TITLE"-->">
 <p class="copy">&copy; Tim Brown</p>
