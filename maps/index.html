@@ -12,13 +12,12 @@
 <body>
 <div class="content">
 <!--#include virtual="/nav.html"-->
+<!--#include file="total.html"-->
 <!--#if expr="$QUERY_STRING" -->
 <!--#set var="SELECTED" value="$QUERY_STRING"-->
 <!--#else -->
 <!--#include file="selected.html"-->
 <!--#endif -->
-<!--#echo var="SELECTED"-->
-
 <!--#if expr="$SELECTED = 1" --><!--#include file="vars-1.html"-->
 <!--#elif expr="$SELECTED = 2" --><!--#include file="vars-2.html"-->
 <!--#elif expr="$SELECTED = 3" --><!--#include file="vars-3.html"-->
@@ -72,6 +71,7 @@
 <p><!--#echo var="DESC"--></p>
 <img src="https://s.tim-brown.org.uk/<!--#echo var="ID"-->/large.jpg" class="responsive" alt="<!--#echo var="TITLE"-->">
 <p class="copy">&copy; Tim Brown</p>
+This is item <!--#echo var="SELECTED" --> of <!--#echo var="TOTAL" -->.
 </div>
 </body>
 </html>
