@@ -1,9 +1,10 @@
 h1{font-weight:normal;font-size:4vw;margin: 0px 0px;}
-p{font-size:1.9vw;}
+p{font-size:1.8vw;}
 .copy{font-size:1.2vw;text-align:center;}
 .responsive{width:100%;height:auto;}
 .content{margin:auto;width:90%;}
-.center{text-align:center;margin:20px;}
+.center{text-align:center;margin:auto;width:60%;}
+.card{text-align:center;margin:50px auto 50px auto;width:60%;border:1px solid #000;border-radius:7px;padding:40px;background-color:#fec;}
 img{border-radius:2%;pointer-events:none;}
 
 /* menu icon */
