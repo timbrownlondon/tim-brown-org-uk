@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 #
 # usage:
-# cat resources/data.psv | resources/build-vars.pl
+# cat resources/data.psv | resources/build-vars-files.pl
 #
 # this writes a set of vars files in the working directory
 
