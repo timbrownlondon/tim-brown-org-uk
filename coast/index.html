@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<title>Tim Brown</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="/favicon.ico">
+<style>
+<!--#include virtual="/common.css"-->
+</style>
+</head>
+<body>
+<!--#include virtual="/nav.html"-->
+<div class="content">
+<div class="toptitle">Coast</div>
+<!--#include file="total.html"-->
+
+<!--#if expr="$QUERY_STRING" -->
+<!--#set var="SELECTED" value="$QUERY_STRING"-->
+<!--#else -->
+<!--#include file="selected.html"-->
+<!--#endif -->
+<!--#if expr="$SELECTED = 1" --><!--#include file="vars-1.html"-->
+<!--#elif expr="$SELECTED = 2" --><!--#include file="vars-2.html"-->
+<!--#elif expr="$SELECTED = 3" --><!--#include file="vars-3.html"-->
+<!--#elif expr="$SELECTED = 4" --><!--#include file="vars-4.html"-->
+<!--#elif expr="$SELECTED = 5" --><!--#include file="vars-5.html"-->
+<!--#elif expr="$SELECTED = 6" --><!--#include file="vars-6.html"-->
+<!--#elif expr="$SELECTED = 7" --><!--#include file="vars-7.html"-->
+<!--#elif expr="$SELECTED = 8" --><!--#include file="vars-8.html"-->
+<!--#elif expr="$SELECTED = 9" --><!--#include file="vars-9.html"-->
+<!--#elif expr="$SELECTED = 10" --><!--#include file="vars-10.html"-->
+<!--#elif expr="$SELECTED = 11" --><!--#include file="vars-11.html"-->
+<!--#elif expr="$SELECTED = 12" --><!--#include file="vars-12.html"-->
+<!--#elif expr="$SELECTED = 13" --><!--#include file="vars-13.html"-->
+<!--#elif expr="$SELECTED = 14" --><!--#include file="vars-14.html"-->
+<!--#elif expr="$SELECTED = 15" --><!--#include file="vars-15.html"-->
+<!--#elif expr="$SELECTED = 16" --><!--#include file="vars-16.html"-->
+<!--#elif expr="$SELECTED = 17" --><!--#include file="vars-17.html"-->
+<!--#elif expr="$SELECTED = 18" --><!--#include file="vars-18.html"-->
+<!--#elif expr="$SELECTED = 19" --><!--#include file="vars-19.html"-->
+<!--#elif expr="$SELECTED = 20" --><!--#include file="vars-20.html"-->
+<!--#elif expr="$SELECTED = 21" --><!--#include file="vars-21.html"-->
+<!--#elif expr="$SELECTED = 22" --><!--#include file="vars-23.html"-->
+<!--#elif expr="$SELECTED = 23" --><!--#include file="vars-23.html"-->
+<!--#elif expr="$SELECTED = 24" --><!--#include file="vars-24.html"-->
+<!--#elif expr="$SELECTED = 25" --><!--#include file="vars-25.html"-->
+<!--#elif expr="$SELECTED = 26" --><!--#include file="vars-26.html"-->
+<!--#elif expr="$SELECTED = 27" --><!--#include file="vars-27.html"-->
+<!--#elif expr="$SELECTED = 28" --><!--#include file="vars-28.html"-->
+<!--#elif expr="$SELECTED = 29" --><!--#include file="vars-29.html"-->
+<!--#elif expr="$SELECTED = 30" --><!--#include file="vars-30.html"-->
+<!--#elif expr="$SELECTED = 31" --><!--#include file="vars-31.html"-->
+<!--#elif expr="$SELECTED = 32" --><!--#include file="vars-32.html"-->
+<!--#elif expr="$SELECTED = 33" --><!--#include file="vars-33.html"-->
+<!--#elif expr="$SELECTED = 34" --><!--#include file="vars-34.html"-->
+<!--#elif expr="$SELECTED = 35" --><!--#include file="vars-35.html"-->
+<!--#elif expr="$SELECTED = 36" --><!--#include file="vars-36.html"-->
+<!--#elif expr="$SELECTED = 37" --><!--#include file="vars-37.html"-->
+<!--#elif expr="$SELECTED = 38" --><!--#include file="vars-38.html"-->
+<!--#elif expr="$SELECTED = 39" --><!--#include file="vars-39.html"-->
+<!--#elif expr="$SELECTED = 40" --><!--#include file="vars-40.html"-->
+<!--#elif expr="$SELECTED = 41" --><!--#include file="vars-41.html"-->
+<!--#elif expr="$SELECTED = 42" --><!--#include file="vars-42.html"-->
+<!--#elif expr="$SELECTED = 43" --><!--#include file="vars-43.html"-->
+<!--#elif expr="$SELECTED = 44" --><!--#include file="vars-44.html"-->
+<!--#elif expr="$SELECTED = 45" --><!--#include file="vars-45.html"-->
+<!--#elif expr="$SELECTED = 46" --><!--#include file="vars-46.html"-->
+<!--#elif expr="$QUERY_STRING = 47" --><!--#include file="vars-47.html"-->
+<!--#endif -->
+
+<h1><!--#echo var="TITLE" encoding="none"--></h1>
+<p><!--#echo var="DESC"--></p>
+<img src="https://s.tim-brown.org.uk/<!--#echo var="ID"-->/large.jpg" class="responsive" alt="<!--#echo var="TITLE" encoding="none"-->">
+<p class="copy">&copy; Tim Brown</p>
+<p class="center">This is item <!--#echo var="SELECTED" --> from the <a href="catalog">catalog</a> of <!--#echo var="TOTAL" -->.</p>
+</div>
+</body>
+</html>
