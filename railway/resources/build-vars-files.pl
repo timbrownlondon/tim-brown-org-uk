@@ -11,6 +11,7 @@ my $n = 1;
 while (<>){
   chomp;
   my($image_id, $title, $desc) = split /\|/, $_;
+  next unless $image_id;
 
   my $file = 'vars-'.$n++.'.html';
   print "Writing to $file\n";
