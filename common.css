@@ -15,8 +15,8 @@ img{border-radius:2%;pointer-events:none;margin:10px 0px;}
 
 /* menu icon */
 .m {
-  width: 26px;
-  height: 2px;
+  width: 22px;
+  height: 1px;
   background-color: #333;
   margin: 6px 1px;
   border: none;
@@ -27,6 +27,7 @@ img{border-radius:2%;pointer-events:none;margin:10px 0px;}
   display: inline-block;
   border-radius: 5px;
   margin: 0px 0px;
+  position:fixed;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
