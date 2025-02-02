@@ -45,11 +45,11 @@ img{border-radius:2%;pointer-events:none;margin:10px 0px;}
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 6px 8px;
+  padding: 2px 4px;
   text-decoration: none;
   display: block;
 }
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-content a:hover {background-color: #eee}
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
