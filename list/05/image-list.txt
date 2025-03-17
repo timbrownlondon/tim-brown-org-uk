@@ -20,6 +20,7 @@ t/3a6dfe/medium.jpg
 t/3a71ca/medium.jpg
 t/3a7948/medium.jpg
 t/3a7f24/medium.jpg
+t/3a8240/medium.jpg
 t/3a87e3/medium.jpg
 t/3a90fc/medium.jpg
 t/3a9424/medium.jpg
@@ -47,4 +48,3 @@ t/3b3962/medium.jpg
 t/3b5a34/medium.jpg
 t/3be1d5/medium.jpg
 t/3be35b/medium.jpg
-t/3be4e3/medium.jpg
