@@ -6,14 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="/favicon.ico">
 <style>
-<!--#include virtual="/common.css"-->
+<!--#include file="/common.css"-->
 </style>
 </head>
 <body>
-<!--#include virtual="/nav.html"-->
+<!--#include file="/nav.html"-->
 <!--#include file="${VARS_FILE}"-->
 <div class="content">
-<button onclick="history.back()">back</button>
+<p><button onclick="history.back()">back</button></p>
 <h1><!--#echo var="TITLE" default="Untitled" --></h1>
 <img src="https://s.tim-brown.org.uk/t/<!--#echo var="ID"-->/large.<!--#echo var="EXT" default="jpg"-->" class="responsive" alt="<!--#echo var="TITLE" encoding="none"-->">
 <p>
