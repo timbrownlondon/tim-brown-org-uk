@@ -1,22 +1,27 @@
-<!DOCTYPE html>
-<html lang="en-GB">
+<html>
 <head>
-<title>Tim Brown</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="/favicon.ico">
 <style>
-<!--#include virtual="/common.css"-->
+<!--#include file="/common.css"-->
+img {padding:10px}
+a {margin:auto;}
+#main {
+align-content:center;
+display: flex;
+flex-wrap: wrap;
+}
 </style>
 </head>
-<body>
-<!--#include virtual="/nav.html"-->
+</body>
+<!--#include file="/nav.html"-->
 <div class="content">
+<p><button onclick="history.back()">back</button></p>
 <h1>Body</h1>
-<!--#include file="total.html"-->
-<!--#include file="large-image.html?${QUERY_STRING}"-->
-<a href="catalog">see other Body pictures</a>
-<p class="copy">&copy; Tim Brown</p>
+<div id="main">
+<!--#include file="image-list.html"-->
+</div>
 </div>
 </body>
 </html>
