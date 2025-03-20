@@ -10,21 +10,16 @@ close $data_file;
 
 for (@data){
   chomp;
-  my ($flickr_id, $img_id, $title, $desc) = split '\|';
+  my ($img_id, $title, $desc, $ext) = split '\|';
 
   my $ssi_file = "ssi/$img_id.html";
   my $content = '<!--#set var="IMG_ID" value="' . $img_id . '"-->' .
                 '<!--#set var="TITLE" value="' . $title . '"-->' .
                 '<!--#set var="DESC" value="' . $desc . '"-->';
 
-  if (-f $ssi_file){
-    open my $old_file, '<', $ssi_file or die;
-    my $old_content = join '', <$old_file>;
+  $content .= '<!--#set var="EXT" value="' . $ext . '"-->' if $ext;
 
-    next if $old_content eq $content;
-
-    open my $outfile, '>', $ssi_file . '.new' or die;
-    print  $outfile $content;
-    close $outfile;
-  }
+  open my $outfile, '>', $ssi_file or die $!;
+  print  $outfile $content;
+  close $outfile;
 }
