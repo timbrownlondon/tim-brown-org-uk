@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 
-for COLLECTION in maps letters-numbers railway london coast body memento-mori journal
+for COLLECTION in maps letters-numbers railway london coast body memento-mori journal gallery
 do
   DATA=$COLLECTION/ids.txt
   wc -l $DATA
