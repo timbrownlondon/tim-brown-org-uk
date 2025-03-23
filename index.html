@@ -7,6 +7,13 @@
 <link rel="icon" type="image/png" href="/favicon.ico">
 <style>
 <!--#include virtual="/common.css"-->
+img {padding:10px}
+a {margin:auto;}
+#main {
+align-content:center;
+display: flex;
+flex-wrap: wrap;
+}
 </style>
 </head>
 <body>
@@ -14,18 +21,12 @@
 <div class="content">
 <h1>Tim Brown (artist)</h1>
 <p>
-The pictures here are changed each day, so if you come back tomorrow you will see a different selection.
-They are mostly works on paper and are grouped by theme London, Coast, Maps etc.
+The pictures here are changed each day, so if you come back tomorrow you will see a different selection.<br>
+View more drawings, paintings and photos using the menu.
 </p>
-<div class="air"></div><hr><!--#include file="london/large-image.html" -->
-<div class="air"></div><hr><!--#include file="coast/large-image.html" -->
-<div class="air"></div><hr><!--#include file="maps/large-image.html" -->
-<div class="air"></div><hr><!--#include file="memento-mori/large-image.html" -->
-<div class="air"></div><hr><!--#include file="railway/large-image.html" -->
-<div class="air"></div><hr><!--#include file="letters-numbers/large-image.html" -->
-<div class="air"></div><hr><!--#include file="body/large-image.html" -->
-<div class="air"></div><hr>
-
+<div id="main">
+<!--#include file="daily-selection.html"-->
+</div>
 <h2>Other Projects</h2>
 <ul>
 <li><a href="https://disgrace.tim-brown.org.uk/">Disgracefully Cavalier</a> - Boris Johnson's attitude</li>
