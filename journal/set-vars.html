@@ -1,8 +1,0 @@
-<!--#if expr="${QUERY_STRING}" -->
- <!--#set var="VARS_FILE" value="vars-${QUERY_STRING}.html" -->
-<!--#else -->
- <!--#include file="selected.html"-->
- <!--#set var="VARS_FILE" value="vars-${SELECTED}.html" -->
-<!--#endif -->
-<!--#include file="${VARS_FILE}"-->
-
