@@ -19,6 +19,6 @@ for C in body \
          railways \
          trees
 do
-  echo $C
+  wc -l $C/ids.txt
   cat $C/ids.txt | shuf | bin/write-image-list.pl > $C/image-list.html
 done
