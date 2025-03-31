@@ -18,8 +18,22 @@
 <h1><!--#echo var="TITLE" default="Untitled" encoding="none"--></h1>
 <p><!--#echo var="DESC" default="" encoding="none"--></p>
 <img src="https://s.tim-brown.org.uk/t/<!--#echo var="ID"-->/large.<!--#echo var="EXT" default="jpg"-->" class="responsive" alt="<!--#echo var="TITLE" encoding="none"-->">
-<p><!--#echo var="ID" --></p>
-<p class="copy">&copy; Tim Brown</p>
+<br>
+<!--#if expr="$CHILDRENSART" --><a href="/childrens-art/">Children's Art</a><br><!--#endif -->
+<!--#if expr="$BODY" --><a href="/body/">Body</a><br><!--#endif -->
+<!--#if expr="$COAST" --><a href="/coast/">Coast</a><br><!--#endif -->
+<!--#if expr="$GALLERY" --><a href="/gallery/">At the Gallery</a><br><!--#endif -->
+<!--#if expr="$ITALY" --><a href="/italy/">Italy</a><br><!--#endif -->
+<!--#if expr="$JOURNAL" --><a href="/journal/">Journal</a><br><!--#endif -->
+<!--#if expr="$LETTERSNUMBERS" --><a href="/letters-numbers/">Letters &amp; Numbers</a><br><!--#endif -->
+<!--#if expr="$LONDON" --><a href="/london/">London</a><br><!--#endif -->
+<!--#if expr="$TREES" --><a href="/trees/">Trees</a><br><!--#endif -->
+<!--#if expr="$MAPS" --><a href="/maps/">Maps</a><br><!--#endif -->
+<!--#if expr="$MEMENTOMORI" --><a href="/memento-mori/">Memento Mori</a><br><!--#endif -->
+<!--#if expr="$RAILWAYS" --><a href="/railways/">Railways</a><br><!--#endif -->
+<!--#if expr="$TREES" --><a href="/trees/">Trees</a><br><!--#endif -->
+</p>
+<p class="copy">&copy; Tim Brown<br> <!--#echo var="ID" --></p>
 </div>
 </body>
 </html>
