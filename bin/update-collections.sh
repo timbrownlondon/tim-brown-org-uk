@@ -1,8 +1,8 @@
 #!/usr/bin/sh
 
-for COLLECTION in maps letters-numbers railways london coast body memento-mori journal gallery childrens-art trees italy
+for DATA in  ls */ids.txt
 do
-  DATA=$COLLECTION/ids.txt
   wc -l $DATA
-  cat $DATA | bin/write-image-list.pl  > $COLLECTION/image-list.html
+  COLLECTION=$(dirname $DATA)
+  shuf $DATA | bin/write-image-list.pl  > $COLLECTION/image-list.html
 done
