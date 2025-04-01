@@ -309,7 +309,6 @@ t/54fdea/medium.jpg
 t/558ced/medium.jpg
 t/55e923/medium.jpg
 t/56c00f/medium.jpg
-t/57030d/medium.jpg
 t/570358/medium.jpg
 t/5745dd/medium.jpg
 t/5795d0/medium.jpg
