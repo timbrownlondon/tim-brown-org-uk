@@ -11,12 +11,14 @@ while (<$in>){
 }
 close $in;
 
+# redirect flickr-data.psv to STDIN
 while (<>){
   chomp;
   my ($id, $title, $url, $date) = split '\|';
+  next if $map->{$id}; # only show images that are NOT on the website
 
   print '<img src="', $url, '"><br>';
-  print '<b>', $map->{$id}, '</b> ' if $map->{$id};
+  # print '<b>', $map->{$id}, '</b> ' if $map->{$id};
   print '(', $id, ')<br>';
   print $title, '<br>';
   print $date, "<br>\n";
