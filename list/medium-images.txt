@@ -234,7 +234,6 @@ t/3aa52a/medium.jpg
 t/3ab2f6/medium.jpg
 t/3ab674/medium.jpg
 t/3ab8a8/medium.jpg
-t/3abe0a/medium.jpg
 t/3ac628/medium.jpg
 t/3acacc/medium.jpg
 t/3acbb1/medium.jpg
