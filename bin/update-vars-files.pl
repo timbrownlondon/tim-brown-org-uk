@@ -26,6 +26,7 @@ close $data_file;
 for (@data){
   chomp;
   my ($id, $title, $desc, $ext) = split '\|';
+  next unless $id; # ignore empty lines
 
   my $ssi_file = "ssi/$id.html";
   my $content = '<!--#set var="IMG_ID" value="' . $id . '"-->' .
