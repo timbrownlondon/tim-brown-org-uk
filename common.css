@@ -2,10 +2,9 @@ h1{font-weight:normal;margin:0px 0px 10px 0px;}
 h2{font-weight:normal;font-family:sans-serif;margin:15px 0px 6px 0px;}
 p{margin:0px;}
 body{margin:0px}
-.heaven{font-size:24px;}
-.heaven a {
+.dropdown a {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: black;
   padding: 2px 4px;
   text-decoration: none;}
@@ -13,24 +12,16 @@ body{margin:0px}
 .air{margin:50px;}
 .copy{text-align:center;}
 .responsive{width:100%;height:auto;}
-.content{padding-top:60px;margin:auto;width:90%;}
+.content{padding-top:10px;margin:auto;width:90%;}
 .catalog{margin:auto;width:400px;padding:30px,0px}
 .center{text-align:center;margin:auto;width:60%;}
 .card{text-align:center;margin:50px auto 50px auto;width:60%;border:1px solid #000;border-radius:7px;padding:40px;background-color:#fec;}
 img{border-radius:2%;pointer-events:none;margin:10px 0px;}
 button{margin:20px 0px;}
 
-/* menu icon */
-.m {
-  width: 22px;
-  height: 1px;
-  background-color: #000;
-  margin: 6px 1px;
-  border: none;
-  align:right;
-}
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
+  font-size:24px;
   display: inline-block;
   width:100%;
   background-color: #eee;
@@ -50,6 +41,8 @@ button{margin:20px 0px;}
 }
 /* Links inside the dropdown */
 .dropdown-content a {
+  font-size:16px;
+  font-family:serif;
   color: black;
   padding: 2px 4px;
   text-decoration: none;
@@ -57,5 +50,6 @@ button{margin:20px 0px;}
 }
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #eee}
+
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
