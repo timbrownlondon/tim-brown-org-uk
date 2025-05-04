@@ -12,6 +12,7 @@ my @selected = select_some_lines(@images);
 
 for my $i (@selected){
   my ($id) = split '\|', $images[$i];
+  warn $id,"\n";
   print '<a href="/img/', $id, '">';
   print '<img src="', $url, '/', $id, '/medium.jpg">';
   print "</a>\n";
