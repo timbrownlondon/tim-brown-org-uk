@@ -12,13 +12,27 @@ align-content:center;
 display: flex;
 flex-wrap: wrap;
 }
+.local-nav {
+font-size: 16px;
+width:70%;
+text-align:center;
+margin:auto;
+}
+.chevron {color:#ccc;padding:6px;}
+.chevron a {color:#000;text-decoration: none;}
 </style>
 </head>
-</body>
+<body>
 <!--#include file="/nav.html"-->
+<div class="local-nav" >
+<!--#include file="nav.html"-->
+</div>
 <div class="content" id="main">
-<p><button onclick="history.back()">back</button></p>
 <!--#include file="image-list.html"-->
+</div>
+<div class="local-nav" >
+<!--#include file="nav.html"-->
 </div>
 </body>
 </html>
+
