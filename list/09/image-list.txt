@@ -1,3 +1,5 @@
+t/6ef464/medium.jpg
+t/6f92ed/medium.jpg
 t/6ffa99/medium.jpg
 t/702414/medium.jpg
 t/7026d1/medium.jpg
@@ -46,5 +48,3 @@ t/78e55d/medium.jpg
 t/790c3c/medium.jpg
 t/79a88b/medium.jpg
 t/79c7aa/medium.jpg
-t/7a74d3/medium.jpg
-t/7a7c0d/medium.jpg

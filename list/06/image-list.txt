@@ -47,4 +47,4 @@ t/467069/medium.jpg
 t/46a004/medium.jpg
 t/472dfe/medium.jpg
 t/473b60/medium.jpg
-t/487696/medium.jpg
+t/47d1c4/medium.jpg

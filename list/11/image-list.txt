@@ -1,3 +1,5 @@
+t/8b5b1a/medium.jpg
+t/8b5b46/medium.jpg
 t/8b6b86/medium.jpg
 t/8c074d/medium.jpg
 t/8c1286/medium.jpg
@@ -46,5 +48,3 @@ t/9cfd73/medium.jpg
 t/9d9d90/medium.jpg
 t/9db9dc/medium.jpg
 t/9e4b78/medium.jpg
-t/9e60c1/medium.jpg
-t/9e9f76/medium.jpg
