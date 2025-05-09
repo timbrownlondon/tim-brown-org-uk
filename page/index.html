@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
-<title>Tim Brown</title>
+<!--#block name="empty"--><!--#endblock-->
+<!--#include file="${VARS_FILE}" stub="empty"-->
+<title><!--#echo var="TITLE" default="Untitled" encoding="none"--></title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="/favicon.ico">
@@ -11,8 +13,6 @@
 </head>
 <body>
 <!--#include file="/nav.html"-->
-<!--#block name="empty"--><!--#endblock-->
-<!--#include file="${VARS_FILE}" stub="empty"-->
 <div class="content">
 <p><button onclick="history.back()">back</button></p>
 <h1><!--#echo var="TITLE" default="Untitled" encoding="none"--></h1>
