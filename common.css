@@ -11,7 +11,7 @@ button{margin:20px 0px;}
 hr{margin:0px;}
 
 #gallery { align-content:center; display: flex; flex-wrap: wrap; }
-#gallery img {padding:10px;border-radius:18px;}
+#gallery img {padding:10px;border-radius:18px;max-width:90%;}
 #gallery a {margin:auto;}
 .local-nav { width:70%; text-align:center; margin:auto; }
 .chevron {color:#ccc;padding:6px;font-size:26px;}
