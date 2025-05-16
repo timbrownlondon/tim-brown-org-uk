@@ -25,7 +25,7 @@ close $data_file;
 # write an ssi file for each image
 for (@data){
   chomp;
-  my ($id, $title, $desc, $ext) = split '\|';
+  my ($id, $title, $desc, $ext, $text_flag) = split '\|';
   next unless $id; # ignore empty lines
 
   my $ssi_file = "ssi/$id.html";
@@ -34,6 +34,7 @@ for (@data){
                 '<!--#set var="DESC" value="' . $desc . '"-->';
 
   $content .= '<!--#set var="EXT" value="' . $ext . '"-->' if $ext;
+  $content .= '<!--#set var="TEXT" value="TRUE"-->' if $text_flag;
 
   for my $C (sort keys %{$collection_members->{$id}}){
     $C =~ s/[^\w]//g;
