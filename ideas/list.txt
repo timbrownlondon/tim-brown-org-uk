@@ -49,7 +49,7 @@ Titles
   Walter Benjamin
   People machines, inputs output processing
   Slot box
-  Pandemic Picture
+  <s>Pandemic Picture</s>
   Small faraday cage, wire and mesh
   Arduino LED words A C E F G H I J L O P S U Y
   Depleted creativity
