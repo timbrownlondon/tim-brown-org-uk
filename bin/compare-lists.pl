@@ -4,25 +4,36 @@ use strict;
 use Data::Dumper;
 
 my $lists;
+my $FH;
 
 $lists->{a}->{name} = 'small/small-images.txt';
 $lists->{b}->{name} = 'img-data.psv';
+$lists->{c}->{name} = 'list/medium-images.txt';
 
 # extract ids from a
-open my $A, '<', $lists->{a}->{name} or die $!;
-while (<$A>){
+open $FH, '<', $lists->{a}->{name} or die $!;
+while (<$FH>){
   m|t/(\w+)|;
   $lists->{a}->{id}->{$1} = 1;
 }
-close $A;
+close $FH;
 
 # extract ids from b
-open my $B, '<', $lists->{b}->{name} or die $!;
-while (<$B>){
+open $FH, '<', $lists->{b}->{name} or die $!;
+while (<$FH>){
   m/(\w+)/;
   $lists->{b}->{id}->{$1} = 1;
 }
-close $B;
+close $FH;
+
+# extract ids from c
+open $FH, '<', $lists->{c}->{name} or die $!;
+while (<$FH>){
+  m|t/(\w+)|;
+  $lists->{c}->{id}->{$1} = 1;
+}
+close $FH;
+
 
 # print Dumper $lists;
 
@@ -34,4 +45,9 @@ for my $id (keys %{$lists->{a}->{id}}){
 print 'Not in ', $lists->{a}->{name}, ":\n";
 for my $id (keys %{$lists->{b}->{id}}){
   print "$id\n" unless $lists->{a}->{id}->{$id};
+}
+
+print 'Not in ', $lists->{c}->{name}, ":\n";
+for my $id (keys %{$lists->{b}->{id}}){
+  print "$id\n" unless $lists->{c}->{id}->{$id};
 }
