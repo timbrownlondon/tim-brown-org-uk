@@ -33,7 +33,7 @@ Titles
   White on white chess after Yoko Ono
   Murmuration
   The show off gene
-  AVX 774
+  <s>AVX 774</s>
   Red London - draw structure with pastels
   Leonardo drawing anatomy
   Simplicity to complexity
@@ -86,6 +86,7 @@ Titles
   Oval Four
   Tottenham Court Road Two
   Asylum Collection
+  5 x 5 space invader
 
 Memento Mori
 ============
@@ -126,6 +127,8 @@ Memento Mori
   Takis, Panayiotis Vassilakis (1925 - 2019) 93 years
   Alberto Giacometti (1901 - 1966) 64 years
   Richard Hunt (1935 - 2023) 88 years
+  Frida Kahlo (1907 - 1954) 47 years
+  Diana - detail of coloure halftone
 
 Oblique Strategies
 ==================
