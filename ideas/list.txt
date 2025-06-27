@@ -5,6 +5,8 @@ Titles
   Algorithm
   The Last Boomer
   Birth Control
+  Julia Set
+  Mandlebrot Set
   Ambulance Queue
   Power Cut
   Map of SW postcodes
