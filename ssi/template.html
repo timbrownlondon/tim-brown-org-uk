@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<title><!--#echo var="TITLE" default="Untitled" encoding="none"--></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="/favicon.ico">
+<style>
+<!--#include file="/common.css"-->
+</style>
+</head>
+<body>
+<!--#include file="/nav.html"-->
+<div class="content">
+<p><button onclick="history.back()">back</button></p>
+<h1><!--#echo var="TITLE" default="Untitled" encoding="none"--></h1>
+<p><!--#echo var="DESC" default="" encoding="none"--></p>
+<!--#if expr="$EXT=mp4" -->
+<video controls autoplay muted loop class="responsive">
+<source type="video/mp4" src="https://s.tim-brown.org.uk/t/<!--#echo var="ID"-->/large.mp4" class="responsive" alt="<!--#echo var="TITLE" encoding="none"-->">
+</video>
+<!--#else -->
+<img src="https://s.tim-brown.org.uk/t/<!--#echo var="ID"-->/large.<!--#echo var="EXT" default="jpg"-->" class="responsive" alt="<!--#echo var="TITLE" encoding="none"-->">
+<!--#endif -->
+<br>
+<!--#if expr="$TEXT" --><!--#include file="/text/$ID.html"--><!--#endif -->
+<p>
+<!--#if expr="$CHILDRENSART" --><a href="/childrens-art/">Children's Art</a><br><!--#endif -->
+<!--#if expr="$BODY" --><a href="/body/">Body</a><br><!--#endif -->
+<!--#if expr="$COAST" --><a href="/coast/">Coast</a><br><!--#endif -->
+<!--#if expr="$GALLERY" --><a href="/gallery/">At the Gallery</a><br><!--#endif -->
+<!--#if expr="$ITALY" --><a href="/italy/">Italy</a><br><!--#endif -->
+<!--#if expr="$JOURNAL" --><a href="/journal/">Journal</a><br><!--#endif -->
+<!--#if expr="$LETTERSNUMBERS" --><a href="/letters-numbers/">Letters &amp; Numbers</a><br><!--#endif -->
+<!--#if expr="$LONDON" --><a href="/london/">London</a><br><!--#endif -->
+<!--#if expr="$MAPS" --><a href="/maps/">Maps</a><br><!--#endif -->
+<!--#if expr="$MEMENTOMORI" --><a href="/memento-mori/">Memento Mori</a><br><!--#endif -->
+<!--#if expr="$RAILWAYS" --><a href="/railways/">Railways</a><br><!--#endif -->
+<!--#if expr="$SELFPORTRAITS" --><a href="/self-portraits/">Self Portraits</a><br><!--#endif -->
+<!--#if expr="$TREES" --><a href="/trees/">Trees</a><br><!--#endif -->
+<!--#if expr="$IBSEN" --><a href="/ibsen/">Ibsen</a><br><!--#endif -->
+<!--#if expr="$TIME" --><a href="/time/">Time</a><br><!--#endif -->
+<!--#if expr="$RECENT" --><a href="/recent/">Recently Added</a><br><!--#endif -->
+</p>
+<form submit="">
+<input type="text" name="note">
+<input type="submit" value="note">
+</form>
+<p class="copy">&copy; Tim Brown<br> <!--#echo var="ID" --></p>
+</div>
+</body>
+</html>

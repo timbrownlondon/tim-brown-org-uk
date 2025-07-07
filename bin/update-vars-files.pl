@@ -29,8 +29,7 @@ for (@data){
   next unless $id; # ignore empty lines
 
   my $ssi_file = "ssi/$id.html";
-  my $content = '<!--#set var="IMG_ID" value="' . $id . '"-->' .
-                '<!--#set var="TITLE" value="' . $title . '"-->' .
+  my $content = '<!--#set var="TITLE" value="' . $title . '"-->' .
                 '<!--#set var="DESC" value="' . $desc . '"-->';
 
   $content .= '<!--#set var="EXT" value="' . $ext . '"-->' if $ext;
@@ -42,6 +41,7 @@ for (@data){
     $content .= uc $C;
     $content .= '" value="TRUE"-->';
   }
+  $content .= '<!--#include file="template.html"-->';
 
   open my $outfile, '>', $ssi_file or die $!;
   print  $outfile $content;
