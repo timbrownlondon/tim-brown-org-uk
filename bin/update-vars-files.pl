@@ -46,4 +46,6 @@ for (@data){
   open my $outfile, '>', $ssi_file or die $!;
   print  $outfile $content;
   close $outfile;
+
+  print "Warning: $id ", length $desc, "\n" if length $desc > 200;
 }
