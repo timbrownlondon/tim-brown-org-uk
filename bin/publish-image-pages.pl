@@ -40,36 +40,50 @@ my @data = <$data_file>;
 close $data_file;
 
 # read template
-open my $template_file, '<', 'ssi/page-template.html' or die $!;
+open my $template_file, '<', 'page/template.html' or die $!;
 my $template = join '', <$template_file>;
 close $template;
 
-# write a html file for each image
+# write an html file for each line of data
 for (@data){
   chomp;
   my ($id, $title, $desc, $ext, $text_flag) = split '\|';
   next unless $id; # ignore empty lines
 
-  my $output_file = "test/$id.html";
+  my $output_file = "page/$id.html";
 
+  my $media = build_media_element($id, $title, $ext);
   my $links = build_collection_links($collection_members->{$id});
-  my $content = fill_template($template, $id, $title, $desc, $ext, $links);
+
+  my $content = fill_template($template, $id, $title, $desc, $media, $links);
 
   open my $out, '>', $output_file or die $!;
   print  $out $content;
   close $out;
 }
 
-sub fill_template{
-  my ($template, $id, $title, $desc, $ext, $links) = @_;
+sub build_media_element {
+  my ($id, $title, $ext) = @_;
+
+  return
+    '<video controls autoplay muted loop class="responsive">' .
+    '<source type="video/mp4" src="https://s.tim-brown.org.uk/t/'. $id . '/large.mp4" class="responsive" alt="'. $title . '">' .
+    '</video>' if $ext eq 'mp4';
 
   $ext or $ext = 'jpg';
+    
+  return 
+    '<img src="https://s.tim-brown.org.uk/t/'. $id .'/large.'. $ext .'" class="responsive" alt="'. $title .'">';
+}
+
+sub fill_template{
+  my ($template, $id, $title, $desc, $media, $links) = @_;
 
   $template =~ s/__ID__/$id/sg;
   $template =~ s/__TITLE__/$title/sg;
-  $template =~ s/__DESC__/$desc/sg;
-  $template =~ s/__EXT__/$ext/sg;
-  $template =~ s/__LINKS__/$links/sg;
+  $template =~ s/__DESC__/$desc/s;
+  $template =~ s/__MEDIA__/$media/s;
+  $template =~ s/__LINKS__/$links/s;
 
   return $template;
 }
