@@ -555,6 +555,7 @@ t/8d92d4/small.jpg
 t/8db55f/small.jpg
 t/8e0cc4/small.jpg
 t/8e1f74/small.jpg
+t/8e8f68/small.jpg
 t/8ecd83/small.jpg
 t/8f46de/small.jpg
 t/902ffd/small.jpg
@@ -865,6 +866,7 @@ t/df5ce3/small.jpg
 t/df735d/small.jpg
 t/df758a/small.jpg
 t/df8534/small.jpg
+t/df89c1/small.jpg
 t/e03c0c/small.jpg
 t/e0bccc/small.jpg
 t/e0c29f/small.jpg
