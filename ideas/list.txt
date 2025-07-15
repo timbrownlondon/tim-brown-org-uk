@@ -402,5 +402,28 @@ And how do we do that? By
 leaving plenty of room for X
 quantities.
 
+SW postcode streets
+===================
+Wellington Buildings, SW1
+Wyatt Park Mansions, SW2
+Royal Hospital Road, SW3
+Old Town, SW4
+Bramham Gardens, SW5
+Clem Attlee Parade, SW6
+Cromwell Road, SW7
+Bonnington Square, SW8
+Wynne Road, SW9
+Lamont Road, SW10
+Wynter Street, SW11
+Grange Mills, SW12
+Cleveland Gardens, SW13
+Park Avenue, SW14
+Whitnell Court, SW15
+Northborough Road, SW16
+Longley Road, SW17
+Westover Road, SW18
+Hardy Road, SW19
+Orchard Lane, SW20
+
 fold list.src -s -w 30 \
 | sed 's/ $//'  > list.txt
