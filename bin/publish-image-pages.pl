@@ -14,6 +14,7 @@ my %collection_name = (
 	italy => 'Italy',
 	journal => 'Journal',
 	body => 'Body',
+	time => 'Time',
 	'self-portraits' => 'Self Portraits',
 	'memento-mori' => 'Memento Mori',
 	'childrens-art' => 'Children\'s Art',
@@ -93,7 +94,6 @@ sub build_collection_links {
 
   my $return_value = '';
   for my $collection_dir (sort keys %$collection_members){
-     next if $collection_dir eq 'time';
      $return_value .=  '<a href="/'. $collection_dir. '/">'. $collection_name{$collection_dir}. "</a><br>\n";
    }
    $return_value;
