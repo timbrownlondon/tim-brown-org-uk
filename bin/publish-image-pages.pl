@@ -72,6 +72,9 @@ sub build_media_element {
     '</video>' if $ext eq 'mp4';
 
   $ext or $ext = 'jpg';
+
+  # remove html tags from the title to use as alt value
+  $title =~ s/<[^>]+>//g;
     
   return 
     '<img src="https://s.tim-brown.org.uk/t/'. $id .'/large.'. $ext .'" class="responsive" alt="'. $title .'">';
@@ -80,8 +83,12 @@ sub build_media_element {
 sub fill_template{
   my ($template, $id, $title, $desc, $media, $links) = @_;
 
+  my $plain_title = $title;
+  $plain_title =~ s/<[^>]+>//g;
+
   $template =~ s/__ID__/$id/sg;
   $template =~ s/__TITLE__/$title/sg;
+  $template =~ s/__PLAIN_TITLE__/$plain_title/sg;
   $template =~ s/__DESC__/$desc/s;
   $template =~ s/__MEDIA__/$media/s;
   $template =~ s/__LINKS__/$links/s;
