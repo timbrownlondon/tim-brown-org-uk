@@ -26,6 +26,7 @@ my $collection_members;
 
 for my $F (glob '*/ids.txt'){
   my ($collection_dir) = $F =~m|(.*?)/|;
+  next if $collection_dir eq 'uncategorised';
 
   open my $ids_fh, '<', $F or die $!;
   for my $id (<$ids_fh>){
@@ -69,7 +70,6 @@ for (@data){
 }
 
 close $uncategorised_ids;
-
 
 sub build_media_element {
   my ($id, $title, $ext) = @_;
