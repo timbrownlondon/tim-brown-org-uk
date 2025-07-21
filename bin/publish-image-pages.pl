@@ -45,6 +45,9 @@ open my $template_file, '<', 'page/template.html' or die $!;
 my $template = join '', <$template_file>;
 close $template;
 
+# open uncategrised id list
+open my $uncategorised_ids, '>', 'uncategorised/ids.txt' or die $!;
+
 # write an html file for each line of data
 for (@data){
   chomp;
@@ -61,7 +64,12 @@ for (@data){
   open my $out, '>', $output_file or die $!;
   print  $out $content;
   close $out;
+
+  print $uncategorised_ids "$id\n" unless $collection_members->{$id};
 }
+
+close $uncategorised_ids;
+
 
 sub build_media_element {
   my ($id, $title, $ext) = @_;
@@ -99,8 +107,12 @@ sub fill_template{
 sub build_collection_links {
   my $collection_members = shift;
 
+  my @collections = sort keys %$collection_members;
+
+  return '<a href="/uncategorised/">Uncategorised</a><br>' unless @collections;
+
   my $return_value = '';
-  for my $collection_dir (sort keys %$collection_members){
+  for my $collection_dir (@collections){
      $return_value .=  '<a href="/'. $collection_dir. '/">'. $collection_name{$collection_dir}. "</a><br>\n";
    }
    $return_value;
