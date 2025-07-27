@@ -12,7 +12,6 @@ my %collection_name = (
 	gallery => 'At the Gallery',
 	trees => 'Trees',
 	italy => 'Italy',
-	journal => 'Journal',
 	body => 'Body',
 	time => 'Time',
 	'portraits' => 'Portraits',
