@@ -42,6 +42,13 @@ open my $data_file, '<', 'img-data.psv' or die $!;
 my @data = <$data_file>;
 close $data_file;
 
+# create registry of include files
+my $include;
+for my $entry (glob 'include-text/*'){
+  $entry =~ m|include-text/(\w+)|;
+  $include->{$1} = '<!--#include file="/'.$entry.'"-->';
+}
+
 # read template
 open my $template_file, '<', 'page/template.html' or die $!;
 my $template = join '', <$template_file>;
@@ -61,7 +68,7 @@ for (@data){
   my $media = build_media_element($id, $title, $ext);
   my $links = build_collection_links($collection_members->{$id});
 
-  my $content = fill_template($template, $id, $title, $desc, $media, $links);
+  my $content = fill_template($template, $id, $title, $desc, $media, $links, $include->{$id});
 
   open my $out, '>', $output_file or die $!;
   print  $out $content;
@@ -90,7 +97,7 @@ sub build_media_element {
 }
 
 sub fill_template{
-  my ($template, $id, $title, $desc, $media, $links) = @_;
+  my ($template, $id, $title, $desc, $media, $links, $include) = @_;
 
   my $plain_title = $title;
   $plain_title =~ s/<[^>]+>//g;
@@ -101,6 +108,7 @@ sub fill_template{
   $template =~ s/__DESC__/$desc/s;
   $template =~ s/__MEDIA__/$media/s;
   $template =~ s/__LINKS__/$links/s;
+  $template =~ s/__INCLUDE__/$include/s;
 
   return $template;
 }
