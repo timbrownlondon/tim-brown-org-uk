@@ -689,7 +689,7 @@ t/b1001e/small.jpg
 t/b115d6/small.jpg
 t/b1cd58/small.jpg
 t/b1f145/small.jpg
-t/b2875b/small.jpg
+t/b2875b/small.png
 t/b2b917/small.jpg
 t/b2bf1c/small.jpg
 t/b2c218/small.jpg
