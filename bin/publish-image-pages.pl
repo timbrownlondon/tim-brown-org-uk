@@ -3,6 +3,7 @@ use strict;
 use Data::Dumper;
 
 my %collection_name = (
+	algorithm => 'Algorithm',
 	animals => 'Animals',
 	maps => 'Maps',
 	london => 'London',
