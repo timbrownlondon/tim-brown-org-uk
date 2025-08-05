@@ -641,7 +641,7 @@ t/a1d8ac/small.jpg
 t/a1dab1/small.jpg
 t/a1f991/small.jpg
 t/a20ff0/small.jpg
-t/a21e89/small.jpg
+t/a21e89/small.png
 t/a2396d/small.jpg
 t/a2f1f2/small.jpg
 t/a3045d/small.jpg
