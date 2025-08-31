@@ -151,6 +151,7 @@ t/2949db/small.jpg
 t/2a4b5f/small.jpg
 t/2aeef6/small.jpg
 t/2af43a/small.jpg
+t/2af7ee/small.jpg
 t/2b000f/small.jpg
 t/2b2831/small.jpg
 t/2be432/small.jpg
@@ -872,6 +873,7 @@ t/d95039/small.jpg
 t/d9988d/small.jpg
 t/da08b3/small.jpg
 t/da6fc1/small.jpg
+t/daa37f/small.jpg
 t/daabf5/small.jpg
 t/db7822/small.jpg
 t/db80f0/small.jpg
