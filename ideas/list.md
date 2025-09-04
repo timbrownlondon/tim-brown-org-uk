@@ -16,8 +16,8 @@
 * Intuitive introvert cogs etc
 * Winter of Discontent (Nov 78 - Feb 79)
 * Three Day Week
-* The Two Tims
 * Duomo
+* Vincent's commute
 * South Mimms
 * Time is ignorance
 * Buy the sky
