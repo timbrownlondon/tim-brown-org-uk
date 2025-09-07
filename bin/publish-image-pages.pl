@@ -10,6 +10,7 @@ my %collection_name = (
 	recent => 'Recently Added',
 	coast => 'Coast',
 	'devices-machines-gadgets' => 'Devices, Machines &amp; Gadgets',
+	'twenty-new-yorkers' => 'Twenty New Yorkers',
 	ibsen => 'Ibsen',
 	railways => 'Railways',
 	gallery => 'At the Gallery',
