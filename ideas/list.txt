@@ -58,9 +58,13 @@ Russian, Ukraine</li>
 <li>Tree in front of building</li>
 <li>Airplane silhouette and undercarriage</li>
 <li>London Boroughs</li>
-<li>Walter Benjamin</li>
 <li>People machines, inputs output processing</li>
 <li>Slot box</li>
+<li>Glyph</li>
+<li>Trigrams</li>
+<li>Currency wallets</li>
+<li>Chemistry Set</li>
+<li>Empty painting</li>
 <li><s>Pandemic Picture</s></li>
 <li>Small faraday cage, wire and mesh</li>
 <li>Arduino LED words A C E F G H I J L O P S U Y</li>
@@ -112,6 +116,7 @@ Russian, Ukraine</li>
 <li>Edward Thomas 39 (1878 - 1917)</li>
 <li>Kirsty MacColl 42 (1959 - 2000)</li>
 <li>Elvis Presley 42 (1935 - 1977)</li>
+<li>Lucienne Day 93 (1917 - 2010)</li>
 <li>Rebecca Horn 80 (1944 - 2024)</li>
 <li>Joe Strummer 50 (1952 - 2002)</li>
 <li>Édouard Manet 51 (1832 - 1883)</li>

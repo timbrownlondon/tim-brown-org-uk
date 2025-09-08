@@ -56,9 +56,13 @@
 * Tree in front of building
 * Airplane silhouette and undercarriage
 * London Boroughs
-* Walter Benjamin
 * People machines, inputs output processing
 * Slot box
+* Glyph
+* Trigrams
+* Currency wallets 
+* Chemistry Set
+* Empty painting 
 * <s>Pandemic Picture</s>
 * Small faraday cage, wire and mesh
 * Arduino LED words A C E F G H I J L O P S U Y
@@ -109,6 +113,7 @@
 * Edward Thomas 39 (1878 - 1917)
 * Kirsty MacColl 42 (1959 - 2000)
 * Elvis Presley 42 (1935 - 1977)
+* Lucienne Day 93 (1917 - 2010)
 * Rebecca Horn 80 (1944 - 2024)
 * Joe Strummer 50 (1952 - 2002)
 * &Eacute;douard Manet 51 (1832 - 1883)
