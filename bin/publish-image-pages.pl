@@ -68,7 +68,7 @@ for (@data){
   my $output_file = "page/$id.html";
 
   my $media = build_media_element($id, $title, $ext);
-  my $links = build_collection_links($collection_members->{$id});
+  my $links = build_collection_links_for($collection_members->{$id}, $id);
 
   my $content = fill_template($template, $id, $title, $desc, $media, $links, $include->{$id});
 
@@ -115,14 +115,16 @@ sub fill_template{
   return $template;
 }
 
-sub build_collection_links {
-  my $collection_members = shift;
+sub build_collection_links_for {
+  my ($collection_members, $id) = @_;
 
   my @collections = sort keys %$collection_members;
 
   return '<a href="/uncategorised/">Uncategorised</a><br>' unless @collections;
 
   my $return_value = '';
+
+  warn join(' ', @collections), " for $id\n" if scalar @collections > 1;
   for my $collection_dir (@collections){
      $return_value .=  '<a href="/'. $collection_dir. '/">'. $collection_name{$collection_dir}. "</a><br>\n";
    }
