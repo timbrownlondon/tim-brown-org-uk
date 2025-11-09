@@ -1,5 +1,5 @@
 h1{font-weight:normal;margin:0px 0px 10px 0px;}
-h2{font-weight:normal;font-family:sans-serif;margin:15px 0px 6px 0px;}
+h2{font-weight:normal;font-family:serif;margin:15px 0px 6px 0px;text-align:center;}
 p{margin:10px 0px;}
 body{margin:0px}
 img{border-radius:10px;pointer-events:none;margin:10px 0px;}
@@ -7,6 +7,7 @@ button{margin:20px 0px;}
 hr{margin:0px;}
 form{margin:30px 0px;}
 video{border-radius:10px;}
+ul{list-style-type: circle;}
 
 .copy{text-align:center;}
 .responsive{width:100%;height:auto;}
