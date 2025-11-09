@@ -32,20 +32,19 @@ ul{list-style-type: circle;}
 
 #tim-title {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: clamp(18px, 3vw, 28px);
   color: black;
   text-decoration: none;
 }
 
 /* Style the hamburger icon label */
 .menu-btn {
-  font-size: 24px;
+  font-size: clamp(18px, 3vw, 28px);
   cursor: pointer;
   display: inline-block;
-  padding: 6px;
+  padding: 8px;
   position: relative;
-  width:30px;
-  height:30px;
+  width:40px;
   z-index: 1;
 }
 
