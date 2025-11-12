@@ -1,32 +1,157 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 <head>
-<title>Tim Brown (artist)</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="/favicon.ico">
-<style>
-<!--#include file="/common.css"-->
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection Covers</title>
+    <style>
+<!--#include file="/nav.css"-->
+body {font-family: Arial, sans-serif;}
+h2   {font-weight:normal;font-style:italic;font-family:serif;margin:15px 0px 6px 0px;text-align:center;}
+ul   {list-style-type: circle;}
+form {margin:30px 0px;text-align:center}
+.copy{text-align:center;}
+
+        .collections-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .collection-cover {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .collection-cover:hover {
+            transform: scale(1.02);
+        }
+
+        .collection-cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .collection-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2.5rem;
+            font-weight_: bold;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            width: 90%;
+        }
+
+        /* Optional: Add a semi-transparent overlay for better text readability */
+        .collection-cover::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+        }
+
+        .collection-cover:hover::after {
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        /* Keep title above overlay */
+        .collection-title {
+            z-index: 1;
+        }
+    </style>
 </head>
 <body>
 <!--#include file="/nav.html"-->
-<div class="content">
-This page is updated daily. Come back tomorrow to see a different selection of pictures.<br>
-Use the menu to view more of my drawings, paintings and photos.
-<div id="gallery">
-<!--#include file="daily-selection.html"-->
-</div>
-<h2>Other Projects</h2>
-<ul>
+<h2>Collections</h2>
+  <div class="collections-grid">
+    <a href="/maps/" class="collection-cover">
+      <img src="https://s.tim-brown.org.uk/t/d7e3e6/cover.jpg" alt="Maps collection">
+      <div class="collection-title">Maps</div>
+    </a>
+
+    <a href="/london/" class="collection-cover">
+      <img src="https://s.tim-brown.org.uk/t/6a04d4/cover.jpg" alt="London collection">
+      <div class="collection-title">London</div>
+    </a>
+
+    <a href="/coast/" class="collection-cover">
+      <img src="https://s.tim-brown.org.uk/t/c3b286/large.jpg" alt="Coast collection">
+      <div class="collection-title">Coast</div>
+    </a>
+
+    <a href="/memento-mori/" class="collection-cover">
+      <img src="https://s.tim-brown.org.uk/t/6b1509/large.jpg" alt="Memento Mori collection">
+      <div class="collection-title">Memento Mori</div>
+    </a>
+
+    <a href="/letters-numbers/" class="collection-cover">
+      <img src="https://s.tim-brown.org.uk/t/204563/large.jpg" alt="Letters Numbers Words collection">
+      <div class="collection-title">Letters Numbers Words</div>
+    </a>
+
+    <a href="/trees/" class="collection-cover">
+      <img src="https://s.tim-brown.org.uk/t/3afee4/large.jpg" alt="Trees collection">
+      <div class="collection-title">Trees</div>
+    </a>
+
+    <a href="/italy/" class="collection-cover">
+      <img src="https://s.tim-brown.org.uk/t/e5c6f4/large.jpg" alt="Italy collection">
+      <div class="collection-title">Italy</div>
+    </a>
+
+    <a href="/gallery/" class="collection-cover">
+      <img src="https://s.tim-brown.org.uk/t/6d703c/large.jpg" alt="At the Gallery collection">
+      <div class="collection-title">At the Gallery</div>
+    </a>
+
+    <a href="/twenty-new-yorkers/" class="collection-cover">
+      <img src="https://s.tim-brown.org.uk/t/5bfb88/large.jpg" alt="Twenty New Yorkers collection">
+      <div class="collection-title">Twenty New Yorkers</div>
+    </a>
+
+    <a href="/railways/" class="collection-cover">
+      <img src="https://s.tim-brown.org.uk/t/a39617/large.jpg" alt="Railways collection">
+      <div class="collection-title">Railways</div>
+    </a>
+
+    <a href="/body/" class="collection-cover">
+      <img src="https://s.tim-brown.org.uk/t/72a67e/large.jpg" alt="Body collection">
+      <div class="collection-title">Body</div>
+    </a>
+
+    <a href="/ibsen/" class="collection-cover">
+      <img src="https://s.tim-brown.org.uk/t/191d65/large.jpg" alt="Ibsen collection">
+      <div class="collection-title">Ibsen</div>
+    </a>
+
+  </div>
+  <h2>Other Projects</h2>
+  <ul>
 <li>US president Trump's <a href="https://banned-words.tim-brown.org.uk/">banned words</a></li>
 <li>Boris Johnson's <a href="https://disgrace.tim-brown.org.uk/">disgracefully cavalier</a> attitude</li>
 <li><a href="https://ghosted.tim-brown.org.uk/">Ghost[ed.]</a> - a colaborative lithographic print edition</li>
 <li><a href="https://twitter-people.tim-brown.org.uk/">Twitter People</a> - the display of 1,420 Twitter profile images</li>
 <li><a href="/ideas/">Ideas</a> - lists of art suggestions</li>
 </ul>
-<!--#include file="search.html"-->
+<!--#include file="/search.html"-->
 <p class="copy">&copy; Tim Brown</p>
-</div>
+
 </body>
 </html>
