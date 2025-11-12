@@ -1,0 +1,51 @@
+/* Hide the checkbox */
+.menu-checkbox {display:none;}
+
+/* Use the content property to swap symbols */
+.menu-btn:before {content:"\2630";width:24px;text-align: center; }
+.menu-checkbox:checked ~ .menu-btn:before {content:"\d7";}
+
+/* Show dropdown when checkbox is checked */
+#menu-toggle:checked ~ .dropdown {display: block;}
+
+#tim-title {
+  font-family: sans-serif;
+  font-size: clamp(18px, 3vw, 28px);
+  color: black;
+  text-decoration: none;
+}
+
+/* Style the hamburger icon label */
+.menu-btn {
+  font-size: clamp(18px, 3vw, 28px);
+  font-weight:bold;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px;
+  position: relative;
+  width:40px;
+  z-index: 1;
+}
+
+/* Dropdown Menu (Hidden by Default) */
+.dropdown{
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px 0px #666;
+  z-index: 1;
+  padding:4px 10px;
+}
+/* Links inside the dropdown */
+.dropdown a {
+  font-size:16px;
+  font-family:sans-serif;
+  color: black;
+  padding: 2px 8px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown a:hover {background-color: #eee}
+
