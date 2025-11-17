@@ -27,22 +27,17 @@ my $collections = {
 
 
 for my $dir (keys %$collections){
+  # read id of first image in collection
   open my $IN, '<', "$dir/ids.txt" or die $!;
-  my @ids = <$IN>;
+  my $id = <$IN>;
   close $IN;
-  my $selected = select_item(@ids);
-  chomp($selected);
+  chomp($id);
 
   my $name = $collections->{$dir};
 
   print '<a href="/', $dir, '/" class="collection-cover">';
-  print '<img src="https://s.tim-brown.org.uk/t/', $selected, '/large.jpg" alt="', $name, ' collection">';
+  print '<img src="https://s.tim-brown.org.uk/t/', $id, '/large.jpg" alt="', $name, ' collection">';
   print '<div class="collection-title">', $name, "</div></a>\n";
 }
 
-sub select_item {
-  my @lines = @_;
-
-  return $lines[int(rand() * @lines)];
-}
 
