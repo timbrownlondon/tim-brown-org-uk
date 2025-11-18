@@ -5,6 +5,6 @@ do
   wc -l $DATA
   COLLECTION=$(dirname $DATA)
   shuf $DATA > tmp
-  mv tmp $DATA
+  mv -f tmp $DATA
   cat $DATA | bin/write-image-list.pl > $COLLECTION/image-list.html
 done
