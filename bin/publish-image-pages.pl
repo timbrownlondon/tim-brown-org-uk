@@ -52,11 +52,11 @@ for my $entry (glob 'include-text/*'){
 }
 
 # read template
-open my $template_file, '<', 'page/template.html' or die $!;
-my $template = join '', <$template_file>;
-close $template;
+open my $file_handle, '<', 'page/template.html' or die $!;
+my $template = join '', <$file_handle>;
+close $file_handle;
 
-# open uncategrised id list
+# open uncategorised id list
 open my $uncategorised_ids, '>', 'uncategorised/ids.txt' or die $!;
 
 # write an html file for each line of data
