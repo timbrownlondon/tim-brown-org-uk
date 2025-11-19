@@ -4,7 +4,6 @@ for DATA in $(ls */ids.txt)
 do
   wc -l $DATA
   COLLECTION=$(dirname $DATA)
-  shuf $DATA > tmp
-  mv -f tmp $DATA
-  cat $DATA | bin/write-image-list.pl > $COLLECTION/image-list.html
+  shuf $DATA > $DATA.shuffled
+  cat $DATA.shuffled | bin/write-image-list.pl > $COLLECTION/image-list.html
 done

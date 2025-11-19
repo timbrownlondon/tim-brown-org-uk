@@ -28,7 +28,7 @@ my $collections = {
 
 for my $dir (keys %$collections){
   # read id of first image in collection
-  open my $IN, '<', "$dir/ids.txt" or die $!;
+  open my $IN, '<', "$dir/ids.txt.shuffled" or die $!;
   my $id = <$IN>;
   close $IN;
   chomp($id);
