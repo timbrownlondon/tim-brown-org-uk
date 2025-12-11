@@ -4,8 +4,11 @@ use strict;
 use YAML;
 use Data::Dumper;
 
+print "Content-type: text/html\n\n";
 
-my $data = YAML::Load(join '', <>);
+my $filename = '/var/www/sites/tim-brown-org-uk/words/words.yaml';
+
+my $data = YAML::LoadFile($filename);
 
 # print Dumper $data;
 
