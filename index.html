@@ -61,10 +61,9 @@ form {margin:30px 0px;text-align:center}
           .collection-cover:hover::after {
              background: rgba(0, 0, 0, 0.4);
           }
-        }
 
-        /* Optional: Add a semi-transparent overlay for better text readability */
-        .collection-cover::after {
+        /* Add a semi-transparent overlay for better text readability */
+          .collection-cover::after {
             content: '';
             position: absolute;
             top: 0;
@@ -74,6 +73,19 @@ form {margin:30px 0px;text-align:center}
             background: rgba(0, 0, 0, 0.1);
             transition: background 0.3s ease;
             border-radius:7px;
+          }
+        }
+	@media (hover: none) {
+          .collection-cover::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius:7px;
+          }
         }
 
         /* Keep title above overlay */
