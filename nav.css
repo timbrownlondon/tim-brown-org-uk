@@ -1,5 +1,6 @@
 /* Hide the checkbox */
 .menu-checkbox {display:none;}
+label{height:20px;}
 
 /* Use the content property to swap symbols */
 .menu-btn:before {content:"\2630";text-align: center; }
