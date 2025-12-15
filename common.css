@@ -8,6 +8,7 @@ hr{margin:0px;}
 form{margin:30px 0px;}
 video{border-radius:10px;}
 ul{list-style-type: circle;}
+label{height:20px;}
 
 .copy{text-align:center;}
 .responsive{width:100%;height:auto;}
