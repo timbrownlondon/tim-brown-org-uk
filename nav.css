@@ -2,7 +2,7 @@
 .menu-checkbox {display:none;}
 
 /* Use the content property to swap symbols */
-.menu-btn:before {content:"\2630";width:24px;text-align: center; }
+.menu-btn:before {content:"\2630";text-align: center; }
 .menu-checkbox:checked ~ .menu-btn:before {content:"\d7";}
 
 /* Show dropdown when checkbox is checked */
