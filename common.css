@@ -45,6 +45,7 @@ label{height:20px;}
   display: inline-block;
   padding: 8px;
   position: relative;
+  top: -4px;
   width:40px;
   z-index: 1;
 }
