@@ -14,7 +14,7 @@ my $collections = {
       italy => 'Italy',
       body => 'Body',
       'memento-mori' => 'Memento Mori',
-      'letters-numbers' => 'Letters, Numbers &amp; Words',
+      'letters-numbers' => 'Letters Numbers Words',
 };
 
 # algorithm => 'Algorithm',
@@ -36,7 +36,7 @@ for my $dir (keys %$collections){
   my $name = $collections->{$dir};
 
   print '<a href="/', $dir, '/" class="collection-cover">';
-  print '<img src="https://s.tim-brown.org.uk/t/', $id, '/large.jpg" alt="', $name, ' collection">';
+  print '<img src="https://s.tim-brown.org.uk/t/', $id, '/large.jpg" alt="', $name, '">';
   print '<div class="collection-title">', $name, "</div></a>\n";
 }
 
