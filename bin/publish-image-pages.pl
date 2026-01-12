@@ -17,6 +17,7 @@ my %collection_name = (
 	trees => 'Trees',
 	italy => 'Italy',
 	body => 'Body',
+	'still-life' => 'Still Life',
 	time => 'Time',
 	'portraits' => 'Portraits',
 	'memento-mori' => 'Memento Mori',
