@@ -15,15 +15,20 @@ my $collections = {
       body => 'Body',
       'memento-mori' => 'Memento Mori',
       'letters-numbers' => 'Letters Numbers Words',
+
+algorithm => 'Algorithm',
+animals => 'Animals',
+'childrens-art' => 'Children\'s Art',
+time => 'Time',
+portraits => 'Portraits',
+devices => 'Devices',
+recent => 'Recently Added',
+'still-life' => 'Still Life',
+uncategorised => 'Uncategorised',
+
 };
 
-# algorithm => 'Algorithm',
-# animals => 'Animals',
-# 'childrens-art' => 'Children\'s Art',
-# time => 'Time',
-# portraits => 'Portraits',
-# devices => 'Devices',
-# recent => 'Recently Added',
+# 9 disgracefully-cavalier => 'Disgracefully Cavalier',
 
 
 for my $dir (keys %$collections){
