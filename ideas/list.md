@@ -103,6 +103,7 @@
 * Truchet tiling
 
 ## Memento Mori
+* Joseph Beuys 64 (1921 - 1986) 
 * Poly Styrene 53 (1957 - 2011)
 * Wilfred Owen 25 (1893 - 1918)
 * John Keats 25 (1795 - 1821)
