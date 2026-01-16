@@ -23,6 +23,7 @@ my %collection_name = (
 	'memento-mori' => 'Memento Mori',
 	'childrens-art' => 'Children\'s Art',
 	'letters-numbers' => 'Letters, Numbers &amp; Words',
+	disgrace => 'Disgracefully Cavalier',
 );
 
 # map collection membership
