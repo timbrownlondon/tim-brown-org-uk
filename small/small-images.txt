@@ -24,6 +24,7 @@ t/048ddb/small.jpg
 t/04c062/small.jpg
 t/050f47/small.jpg
 t/05a1f3/small.jpg
+t/061389/small.jpg
 t/0707b3/small.jpg
 t/070f9c/small.jpg
 t/072370/small.jpg
@@ -329,6 +330,7 @@ t/4313cb/small.jpg
 t/43e863/small.jpg
 t/4441b3/small.jpg
 t/44a9c0/small.jpg
+t/44b306/small.jpg
 t/44b33e/small.jpg
 t/44b4ae/small.jpg
 t/44b664/small.jpg
@@ -824,6 +826,7 @@ t/c2e99b/small.jpg
 t/c30bd7/small.jpg
 t/c35c06/small.jpg
 t/c36d49/small.jpg
+t/c37c3a/small.png
 t/c3b286/small.jpg
 t/c3c3c6/small.jpg
 t/c3e35d/small.jpg
