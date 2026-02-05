@@ -13,7 +13,7 @@ label{height:20px;}
 .copy{text-align:center;}
 .responsive{width:100%;height:auto;}
 .content{padding-top:10px;margin:auto;width:90%;}
-.card{text-align:center;margin:50px auto 50px auto;width:60%;border:1px solid #000;border-radius:7px;padding:40px;background-color:#fec;}
+.card{margin:50px auto 50px auto;width:75%;padding:30px;font-size:16px;}
 #gallery {align-content:center; display: flex; flex-wrap: wrap;}
 #gallery img {padding:10px;border-radius:18px;max-width:90%;}
 #gallery a {margin:auto;}
