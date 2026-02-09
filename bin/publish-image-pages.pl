@@ -1,31 +1,13 @@
 #!/usr/bin/env perl
 use strict;
-use Data::Dumper;
 
-my %collection_name = (
-	algorithm => 'Algorithm',
-	animals => 'Animals',
-	maps => 'Maps',
-	london => 'London',
-	recent => 'Recently Added',
-	coast => 'Coast',
-	devices => 'Devices',
-	encounter => 'Theatre of Encounter',
-	'twenty-new-yorkers' => 'Twenty New Yorkers',
-	ibsen => 'Ibsen sketchbooks',
-	railways => 'Railways',
-	gallery => 'At the Gallery',
-	trees => 'Trees',
-	italy => 'Italy',
-	body => 'Body',
-	'still-life' => 'Still Life',
-	time => 'Time',
-	'portraits' => 'Portraits',
-	'memento-mori' => 'Memento Mori',
-	'childrens-art' => 'Children\'s Art',
-	'letters-numbers' => 'Letters, Numbers &amp; Words',
-	disgrace => 'Disgracefully Cavalier',
-);
+use FindBin;
+use lib $FindBin::Bin;
+
+use Data::Dumper;
+use SiteTools;
+
+my $tools = SiteTools->new();
 
 # map collection membership
 my $collection_members;
@@ -129,7 +111,7 @@ sub build_collection_links_for {
 
   warn join(' ', @collections), " for $id\n" if scalar @collections > 1;
   for my $collection_dir (@collections){
-     $return_value .=  '<a href="/'. $collection_dir. '/">'. $collection_name{$collection_dir}. "</a><br>\n";
+     $return_value .=  '<a href="/'. $collection_dir. '/">'. $tools->name_from_dir($collection_dir). "</a><br>\n";
    }
    $return_value;
 }

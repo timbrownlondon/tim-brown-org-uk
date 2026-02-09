@@ -1,42 +1,20 @@
 #!/bin/env perl
-
 use strict;
 
-my $collections = {
-      maps => 'Maps',
-      london => 'London',
-      coast => 'Coast',
-      'twenty-new-yorkers' => 'Twenty New Yorkers',
-      ibsen => 'Ibsen sketchbooks',
-      railways => 'Railways',
-      gallery => 'At the Gallery',
-      trees => 'Trees',
-      italy => 'Italy',
-      body => 'Body',
-      'memento-mori' => 'Memento Mori',
-      'letters-numbers' => 'Letters Numbers Words',
-      algorithm => 'Algorithm',
-      animals => 'Animals',
-      'childrens-art' => 'Children\'s Art',
-      time => 'Time',
-      portraits => 'Portraits',
-      devices => 'Devices',
-      recent => 'Recently Added',
-      'still-life' => 'Still Life',
-      uncategorised => 'Uncategorised',
-      disgrace => 'Disgracefully Cavalier',
-};
+use FindBin;
+use lib $FindBin::Bin;
 
+use SiteTools;
+my $tools = SiteTools->new();
 
-
-for my $dir (keys %$collections){
+for my $dir ($tools->collection_dirs()){
   # read id of first image in collection
   open my $IN, '<', "$dir/ids.txt.shuffled" or die $!;
   my $id = <$IN>;
   close $IN;
   chomp($id);
 
-  my $name = $collections->{$dir};
+  my $name = $tools->name_from_dir($dir);
 
   print '<a href="/', $dir, '/" class="collection-cover">';
   print '<img src="https://s.tim-brown.org.uk/t/', $id, '/large.jpg" alt="', $name, '">';
