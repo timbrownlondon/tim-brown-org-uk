@@ -28,6 +28,7 @@ my $collection_names = {
 	'childrens-art' => 'Children\'s Art',
 	'letters-numbers' => 'Letters, Numbers &amp; Words',
 	disgrace => 'Disgracefully Cavalier',
+	uncategorised => 'Uncategorised',
 };
 
 sub new {
