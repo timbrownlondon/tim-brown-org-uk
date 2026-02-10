@@ -7,9 +7,10 @@ use lib $FindBin::Bin;
 use SiteTools;
 my $tools = SiteTools->new();
 
-for my $dir ($tools->collection_dirs()){
+for my $dir ($tools->dirs_for_homepage()){
   # read id of first image in collection
-  open my $IN, '<', "$dir/ids.txt.shuffled" or die $!;
+  warn '------ ', $dir;
+  open my $IN, '<', "$dir/ids.txt.shuffled" or die "$dir/ids.txt.shuffled - $!";
   my $id = <$IN>;
   close $IN;
   chomp($id);

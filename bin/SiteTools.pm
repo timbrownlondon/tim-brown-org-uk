@@ -3,6 +3,8 @@ package SiteTools;
 use strict;
 use Data::Dumper;
 
+use List::Util qw(shuffle);
+
 my $collection_names = {
 	algorithm => 'Algorithm',
 	animals => 'Animals',
@@ -45,4 +47,14 @@ sub collection_dirs {
 
   return keys %{$self->{names}};
 }
+
+sub dirs_for_homepage {
+  my $self = shift;
+
+  my @dirs = shuffle keys %{$self->{names}};
+
+  @dirs[0..19];  # 20 random items
+}
+
+
 1;
