@@ -8,6 +8,7 @@ use List::Util qw(shuffle);
 my $collection_names = {
 	algorithm => 'Algorithm',
 	animals => 'Animals',
+	banned => 'Banned Words',
 	maps => 'Maps',
 	london => 'London',
 	recent => 'Recently Added',
