@@ -53,9 +53,7 @@ sub dirs {
 sub dirs_for_homepage {
   my $self = shift;
 
-  my @dirs = shuffle keys %{$self->{names}};
-
-  @dirs[0..19];  # 20 random items
+  shuffle keys %{$self->{names}};
 }
 
 
