@@ -44,10 +44,10 @@ sub name_from_dir {
   return $self->{names}->{$dir};
 }
 
-sub collection_dirs {
+sub dirs {
   my $self = shift;
 
-  return keys %{$self->{names}};
+  return join ' ', sort keys %{$self->{names}};
 }
 
 sub dirs_for_homepage {
