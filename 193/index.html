@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+}
+nav a {
+  font-size:26px;
+  font-family: sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #f5f0e8;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+  }
+  .text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22vw;
+    font-weight: bold;
+    line-height: 0.9;
+    color: #1a1a1a;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+  .chevron {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+    opacity: 0.3;
+    transition: opacity 0.2s;
+  }
+  .chevron:hover { opacity: 1; }
+  .chevron.prev { left: 10px; }
+  .chevron.next { right: 10px; }
+  .chevron svg { width: 50px; height: 50px; stroke: #1a1a1a; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+</style>
+</head>
+<body>
+<nav>
+<a href="/">Tim Brown</a>
+<a href="/menu/">&#9776;</a>
+</nav>
+
+<div class="content">
+  <button class="chevron prev" onclick="go(-1)">
+    <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+  </button>
+  <div class="text" id="display"></div>
+  <button class="chevron next" onclick="go(1)">
+    <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
+  </button>
+</div>
+
+<script>
+const items = [
+	    "193<br>BEN",
+	    "759<br>.2<br>HAM",
+	    "153<br>.6",
+	    "363<br>.31",
+	    "700<br>.92<br>BEC",
+	    "700<br>.866",
+	    "701<br>.18",
+	    "937<br>CON",
+	    "74<br>.92<br>JAN",
+	    "822<br>.912<br>E46",
+];
+
+let index = 0;
+
+function render() {
+      document.getElementById('display').innerHTML = items[index];
+}
+
+function go(dir) {
+      index = (index + dir + items.length) % items.length;
+      render();
+}
+
+render();
+</script>
+</body>
+</html>
