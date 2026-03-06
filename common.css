@@ -2,7 +2,7 @@
 h1{font-weight:normal;margin:0px 0px 10px 0px;}
 h2{font-weight:normal;font-style:italic;font-family:serif;margin:15px 0px 6px 0px;text-align:center;}
 p{margin:10px 0px;}
-body{margin:0px;}
+body{margin:0px;background: #f5f0e8;}
 img{border-radius:10px;pointer-events:none;margin:10px 0px;}
 button{margin:20px 0px;}
 hr{margin:0px;}
