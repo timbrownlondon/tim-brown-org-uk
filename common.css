@@ -11,6 +11,7 @@ video{border-radius:10px;}
 ul{list-style-type: circle;}
 label{height:20px;}
 
+.back{font-family:sans-serif;cursor:pointer;}
 .copy{text-align:center;}
 .responsive{width:100%;height:auto;}
 .content{padding-top:10px;margin:auto;width:90%;}
