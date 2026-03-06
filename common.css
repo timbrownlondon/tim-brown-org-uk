@@ -12,7 +12,7 @@ ul{list-style-type: circle;}
 label{height:20px;}
 
 .back{font-family:sans-serif;cursor:pointer;}
-.copy{text-align:center;}
+.copy{text-align:center;padding:30px;}
 .responsive{width:100%;height:auto;}
 .content{padding-top:10px;margin:auto;width:90%;}
 .card{margin:50px auto 50px auto;width:75%;padding:30px;font-size:24px;}
