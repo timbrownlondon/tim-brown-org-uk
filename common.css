@@ -16,7 +16,7 @@ label{height:20px;}
 .responsive{width:100%;height:auto;}
 .content{padding-top:10px;margin:auto;width:90%;}
 .card{margin:50px auto 50px auto;width:75%;padding:30px;font-size:24px;}
-#gallery {align-content:center; display: flex; flex-wrap: wrap;}
+#gallery {align-content:center; justify-content: center; display: flex; flex-wrap: wrap;}
 #gallery img {padding:10px;border-radius:18px;max-width:90%;}
 #gallery a {margin:auto;}
 .local-nav {width:70%; text-align:center; margin:auto;}
