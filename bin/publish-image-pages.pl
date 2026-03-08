@@ -14,7 +14,7 @@ my $collection_members;
 
 for my $F (glob '*/ids.txt'){
   my ($collection_dir) = $F =~m|(.*?)/|;
-  next if $collection_dir eq 'uncategorised';
+  next if $collection_dir eq 'misc';
 
   open my $ids_fh, '<', $F or die $!;
   for my $id (<$ids_fh>){
@@ -41,8 +41,8 @@ open my $file_handle, '<', 'page/template.html' or die $!;
 my $template = join '', <$file_handle>;
 close $file_handle;
 
-# open uncategorised id list
-open my $uncategorised_ids, '>', 'uncategorised/ids.txt' or die $!;
+# open misc id list
+open my $misc_ids, '>', 'misc/ids.txt' or die $!;
 
 # write an html file for each line of data
 for (@data){
@@ -61,10 +61,10 @@ for (@data){
   print  $out $content;
   close $out;
 
-  print $uncategorised_ids "$id\n" unless $collection_members->{$id};
+  print $misc_ids "$id\n" unless $collection_members->{$id};
 }
 
-close $uncategorised_ids;
+close $misc_ids;
 
 sub build_media_element {
   my ($id, $title, $ext) = @_;
@@ -105,7 +105,7 @@ sub build_collection_links_for {
 
   my @collections = sort keys %$collection_members;
 
-  return '<a href="/uncategorised/">Uncategorised</a><br>' unless @collections;
+  return '<a href="/misc/">Atelier</a><br>' unless @collections;
 
   my $return_value = '';
 
