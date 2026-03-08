@@ -9,6 +9,7 @@ my $collection_names = {
 	algorithm => 'Algorithm',
 	animals => 'Animals',
 	banned => 'Banned Words',
+	books => 'Books',
 	maps => 'Maps',
 	london => 'London',
 	recent => 'Recently Added',
