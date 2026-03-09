@@ -54,7 +54,7 @@ sub dirs {
 sub dirs_for_homepage {
   my $self = shift;
 
-  shuffle keys %{$self->{names}};
+  shuffle grep { $_ ne 'misc' } keys %{$self->{names}};
 }
 
 
