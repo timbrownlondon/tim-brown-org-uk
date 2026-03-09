@@ -2,6 +2,9 @@
 
 set -eu
 
+# ensure pages are up to date
+bin/publish-image-pages.pl
+
 # shuffle contents of collection pages
 bin/update-collections.sh
 
