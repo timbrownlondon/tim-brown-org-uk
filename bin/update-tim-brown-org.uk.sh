@@ -6,7 +6,7 @@ set -eu
 bin/update-collections.sh
 
 # update homepage selection
-bin/update-collection-selections.pl  > collections.html
+bin/update-selection.pl  > collections.html
 
 # shuffle contents of list pages
 shuf list/medium-images.txt | bin/split-image-list.pl
