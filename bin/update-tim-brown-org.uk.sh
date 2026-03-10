@@ -2,6 +2,9 @@
 
 set -eu
 
+# ensure menu is up to date
+bin/menu_links.pl  > menu/links.html
+
 # ensure pages are up to date
 bin/publish-image-pages.pl
 

@@ -57,5 +57,17 @@ sub dirs_for_homepage {
   shuffle grep { $_ ne 'misc' } keys %{$self->{names}};
 }
 
+sub links_for_menu {
+  my $self = shift;
+
+  my $str = '';
+
+  for (sort keys %{$self->{names}}){
+     next if $_ eq 'misc';
+     $str .= '<a href="/' . $_ . '/">' . $self->{names}->{$_} . "</a>\n";
+  }
+  return $str;
+}
+
 
 1;
