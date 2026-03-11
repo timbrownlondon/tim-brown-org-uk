@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 
-use FindBin;
-use lib $FindBin::Bin;
+use lib 'lib';
 
 use Data::Dumper;
 use SiteTools;
