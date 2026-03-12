@@ -31,6 +31,7 @@ my $collection_names = {
 	'letters-numbers' => 'Letters, Numbers &amp; Words',
 	disgrace => 'Disgracefully Cavalier',
 	misc => 'Atelier',
+	flag => "St George's Flag",
 };
 
 sub new {
@@ -54,7 +55,7 @@ sub dirs {
 sub dirs_for_homepage {
   my $self = shift;
 
-  shuffle grep { $_ ne 'misc' } keys %{$self->{names}};
+  shuffle grep { !/^(misc|flag)$/ } keys %{$self->{names}};
 }
 
 sub links_for_menu {
