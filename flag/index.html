@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { height: 95%; }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+}
+nav a {
+  font-size:26px;
+  font-family: sans-serif;
+  color: black;
+  text-decoration: none;
+  line-height: 1;
+}
+
+body {
+  background: #f5f0e8;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.txt {
+ font-family: sans-serif;
+ width: min(75vw, calc(75vh * 7 / 5));
+ margin: 0 auto;
+}
+
+.reset {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.flag {
+    background: #fff;
+    position: relative;
+    width: min(75vw, calc(75vh * 7 / 5));
+    height: min(75vh, calc(75vw * 5 / 7));
+    cursor: pointer;
+  }
+
+.flag .v {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: calc(min(75vw, calc(75vh * 7 / 5)) / 7);
+    height: 100%;
+    background: #c8102e;
+  }
+  .flag .h {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: calc(min(75vw, calc(75vh * 7 / 5)) / 7);
+    background: #c8102e;
+  }
+</style>
+</head>
+<body>
+<nav>
+<a href="/">Tim Brown</a>
+<a href="/menu/">&#9776;</a>
+</nav>
+
+<div class="txt">
+The St George's flag comes in many colourways.
+<br>Tap or click the flag and the cross for a new colour.
+</div>
+
+<div class="container">
+<div class="flag" onclick="updateGround()">
+<div class="v" onclick="updateCross(event)"></div>
+<div class="h" onclick="updateCross(event)"></div>
+</div>
+</div>
+
+<div class="txt reset" onclick="reset()">reset the flag</div>
+
+</body>
+</html>
+
+<script>
+const randColor = () => `#${Math.floor(Math.random()*0xFFFFFF).toString(16).padStart(6,'0')}`;
+
+function randomiseFlag() {
+
+  document.querySelectorAll('.flag .v, .flag .h').forEach(el => el.style.background = randColor());
+}
+function updateGround() {
+  document.querySelector('.flag').style.background = randColor();
+}
+function updateCross(event) {
+  event.stopPropagation();
+  const color = randColor();
+  document.querySelectorAll('.flag .v, .flag .h').forEach(el => el.style.background = color);
+}
+function reset() {
+  document.querySelector('.flag').style.background = '#fff';
+  document.querySelector('.flag .h').style.background = '#c8102e';
+  document.querySelector('.flag .v').style.background = '#c8102e';
+}
+
+</script>
