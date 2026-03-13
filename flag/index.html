@@ -6,6 +6,7 @@
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { height: 95%; }
+h2 { margin: 10px 0;}
 nav {
   display: flex;
   justify-content: space-between;
@@ -72,6 +73,11 @@ body {
     height: calc(min(75vw, calc(75vh * 7 / 5)) / 7);
     background: #c8102e;
   }
+
+.action::before { content: "Click"; }
+@media (pointer: coarse) { .action::before { content: "Tap"; }
+
+}
 </style>
 </head>
 <body>
@@ -81,8 +87,8 @@ body {
 </nav>
 
 <div class="txt">
-The St George's flag in alternative colours.
-<br>Click/tap the flag or cross for a new colour.
+<h2>Alternative St George's flag</h2>
+<span class="action"></span> the flag or cross for a new colour
 </div>
 
 <div class="container">
