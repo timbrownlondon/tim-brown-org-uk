@@ -103,6 +103,7 @@
 * Truchet tiling
 
 ## Memento Mori
+* Sergei Rachmaninoff 69 (1873 1943)
 * Joseph Beuys 64 (1921 - 1986) 
 * Poly Styrene 53 (1957 - 2011)
 * Wilfred Owen 25 (1893 - 1918)
