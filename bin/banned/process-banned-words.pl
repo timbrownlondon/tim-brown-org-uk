@@ -2,7 +2,7 @@
 use strict;
 use Digest::MD5 qw(md5_hex);
 
-# cat bin/banned/banned-words-list.txt | bin/banned/process-banned-words.pl > banned/words.js
+# cat bin/banned/words.txt | bin/banned/process-banned-words.pl > banned/words.js
 
 print "const data = [\n";
 

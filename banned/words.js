@@ -148,7 +148,6 @@ const data = [
 {fg: "#8895c3", bg: "#776a3c", txt: "fostering inclusivity"},
 {fg: "#abb526", bg: "#544ad9", txt: "fuel cell"},
 {fg: "#6e1187", bg: "#91ee78", txt: "gay"},
-{fg: "#f85a83", bg: "#07a57c", txt: "GBV"},
 {fg: "#cc90f1", bg: "#336f0e", txt: "gender"},
 {fg: "#0e6f25", bg: "#f190da", txt: "gender based"},
 {fg: "#bc7bbd", bg: "#438442", txt: "gender based violence"},
