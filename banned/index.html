@@ -1,25 +1,86 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
-<title>Banned Words</title>
+<title>Banned Words: abortion</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="/favicon.ico">
+<script src="words.js?1"></script>
+<script src="cycle.js?3"></script>
 <style>
-<!--#include file="/common.css"-->
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+body a {
+    text-decoration:none;
+    color: var(--link-color); 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+}
+nav a {
+  font-size:26px;
+  font-family: sans-serif;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.row_ {
+    margin: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.row:nth-child(2) {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    margin: 0 3vw;
+}
+
+#message {
+    text-align: center;
+    font-size: 8vw;
+}
+
+#prev, #next {
+    font-size: 6vw;
+    cursor: pointer;
+}
+#subtext {
+  font-size: 16px;
+  margin: 50px;
+}
 </style>
 </head>
 <body>
-<!--#include file="/nav.html"-->
-<div class="content">
-<h2>Banned Words</h2>
-At the start of Trump's second presidential term, specific words and phrases were removed from U.S. government initiatives, websites, and documents.<br>
-I made a project that presents the removed ideas.
-<div id="gallery">
-<!--#include file="image-list.html"-->
+<nav>
+<a href="/">Tim Brown</a>
+<a href="/menu/">&#9776;</a>
+</nav>
+<div class="row">
+<div id="prev">&#10094;</div>
+<div id="message"></div>
+<div id="next">&#10095;</div>
 </div>
-See the full site at <a href="https://banned-words.tim-brown.org.uk">banned-words.tim-brown.org.uk</a>
+<div id="subtext"> 
+In 2025 Trump's adminstration started removing phrases, words and ideas from US government websites and documents.
+<i>Ref. <a href="https://pen.org/banned-words-list/">PEN.org</a></i>
 </div>
-<p class="copy">&copy; Tim Brown</p>
 </body>
+<script>
+document.getElementById("prev").addEventListener("click", () => update(-1));
+document.getElementById("next").addEventListener("click", () => update(1));
+</script>
 </html>

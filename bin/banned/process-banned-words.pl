@@ -9,7 +9,6 @@ print "const data = [\n";
 # STDIN is list of words or phrases
 for my $txt ( <> ){
   chomp $txt;
-  $txt =~ s| |<br>|g;
 
   my $fg = '#' . substr(md5_hex($txt), 0, 6);
 
@@ -18,7 +17,7 @@ for my $txt ( <> ){
   my $blue  = hex(substr($fg, 5, 2));
 
   my $bg = sprintf('#%02x%02x%02x', 255 - $red, 255 - $green, 255 - $blue);
-  print qq({fg: "$fg", bg: "$bg", txt: "$txt"}\n);
+  print qq({fg: "$fg", bg: "$bg", txt: "$txt"},\n);
 }
 
 print "];\n";

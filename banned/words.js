@@ -1,359 +1,359 @@
 const data = [
-{fg: "#4808d6", bg: "#b7f729", txt: "abortion"}
-{fg: "#0ff85b", bg: "#f007a4", txt: "accessibility"}
-{fg: "#4be3ba", bg: "#b41c45", txt: "accessible"}
-{fg: "#616105", bg: "#9e9efa", txt: "activism"}
-{fg: "#90fd83", bg: "#6f027c", txt: "activists"}
-{fg: "#b94ad9", bg: "#46b526", txt: "advocacy"}
-{fg: "#b3a7cc", bg: "#4c5833", txt: "advocate"}
-{fg: "#32fa65", bg: "#cd059a", txt: "advocates"}
-{fg: "#c5747a", bg: "#3a8b85", txt: "affirming<br>care"}
-{fg: "#178d0f", bg: "#e872f0", txt: "affordable<br>home"}
-{fg: "#33415b", bg: "#ccbea4", txt: "affordable<br>housing"}
-{fg: "#0824ef", bg: "#f7db10", txt: "agricultural<br>water"}
-{fg: "#4a6a39", bg: "#b595c6", txt: "agrivoltaics"}
-{fg: "#5cd232", bg: "#a32dcd", txt: "air<br>pollution"}
-{fg: "#f53db6", bg: "#0ac249", txt: "all-inclusive"}
-{fg: "#9d3020", bg: "#62cfdf", txt: "allyship"}
-{fg: "#aff7a0", bg: "#50085f", txt: "alternative<br>energy"}
-{fg: "#2f0f99", bg: "#d0f066", txt: "anti-racism"}
-{fg: "#e7d8d8", bg: "#182727", txt: "antiracist"}
-{fg: "#7f9bd2", bg: "#80642d", txt: "asexual"}
-{fg: "#8772e2", bg: "#788d1d", txt: "assigned<br>at<br>birth"}
-{fg: "#186082", bg: "#e79f7d", txt: "assigned<br>female<br>at<br>birth"}
-{fg: "#d4840c", bg: "#2b7bf3", txt: "assigned<br>male<br>at<br>birth"}
-{fg: "#c22baa", bg: "#3dd455", txt: "at<br>risk"}
-{fg: "#8603aa", bg: "#79fc55", txt: "autism"}
-{fg: "#6b95e1", bg: "#946a1e", txt: "aviation<br>fuel"}
-{fg: "#fa9c8a", bg: "#056375", txt: "barrier"}
-{fg: "#ececb5", bg: "#13134a", txt: "barriers"}
-{fg: "#e455e6", bg: "#1baa19", txt: "belong"}
-{fg: "#1603f7", bg: "#e9fc08", txt: "bias"}
-{fg: "#b14bba", bg: "#4eb445", txt: "biased"}
-{fg: "#07dff2", bg: "#f8200d", txt: "biased<br>toward"}
-{fg: "#a1eb90", bg: "#5e146f", txt: "biases"}
-{fg: "#06ca0e", bg: "#f935f1", txt: "biases<br>towards"}
-{fg: "#58e0a6", bg: "#a71f59", txt: "bioenergy"}
-{fg: "#9836b7", bg: "#67c948", txt: "biofuel"}
-{fg: "#bb9ad0", bg: "#44652f", txt: "biogas"}
-{fg: "#7fa59f", bg: "#805a60", txt: "biologically<br>female"}
-{fg: "#249abb", bg: "#db6544", txt: "biologically<br>male"}
-{fg: "#36ef6f", bg: "#c91090", txt: "biomethane"}
-{fg: "#202a37", bg: "#dfd5c8", txt: "bipoc"}
-{fg: "#242fb4", bg: "#dbd04b", txt: "bisexual"}
-{fg: "#1ffd9e", bg: "#e00261", txt: "black"}
-{fg: "#5c65be", bg: "#a39a41", txt: "black<br>and<br>latinx"}
-{fg: "#8bc7a0", bg: "#74385f", txt: "breastfeed<br>+<br>people"}
-{fg: "#602461", bg: "#9fdb9e", txt: "breastfeed<br>+<br>person"}
-{fg: "#8fe26a", bg: "#701d95", txt: "cancer<br>moonshot"}
-{fg: "#affdb3", bg: "#50024c", txt: "carbon<br>emissions<br>mitigation"}
-{fg: "#4db43a", bg: "#b24bc5", txt: "carbon<br>footprint"}
-{fg: "#091084", bg: "#f6ef7b", txt: "carbon<br>markets"}
-{fg: "#0c6ed2", bg: "#f3912d", txt: "carbon<br>pricing"}
-{fg: "#5a7569", bg: "#a58a96", txt: "carbon<br>sequestration"}
-{fg: "#5724fb", bg: "#a8db04", txt: "CEC"}
-{fg: "#7bc0a4", bg: "#843f5b", txt: "changing<br>climate"}
-{fg: "#b0dd9d", bg: "#4f2262", txt: "chestfeed<br>+<br>people"}
-{fg: "#9e3ba8", bg: "#61c457", txt: "chestfeed<br>+<br>person"}
-{fg: "#74b694", bg: "#8b496b", txt: "clean<br>energy"}
-{fg: "#82905f", bg: "#7d6fa0", txt: "clean<br>fuel"}
-{fg: "#95d193", bg: "#6a2e6c", txt: "clean<br>power"}
-{fg: "#11f508", bg: "#ee0af7", txt: "clean<br>water"}
-{fg: "#0b8535", bg: "#f47aca", txt: "climate"}
-{fg: "#d83417", bg: "#27cbe8", txt: "climate<br>accountability"}
-{fg: "#eb788a", bg: "#148775", txt: "climate<br>change"}
-{fg: "#4b2aa6", bg: "#b4d559", txt: "climate<br>consulting"}
-{fg: "#cab256", bg: "#354da9", txt: "climate<br>crisis"}
-{fg: "#4de743", bg: "#b218bc", txt: "climate<br>model"}
-{fg: "#8ab3cc", bg: "#754c33", txt: "climate<br>models"}
-{fg: "#2119ba", bg: "#dee645", txt: "climate<br>resilience"}
-{fg: "#ad896e", bg: "#527691", txt: "climate<br>risk"}
-{fg: "#f43c5c", bg: "#0bc3a3", txt: "climate<br>science"}
-{fg: "#663bc8", bg: "#99c437", txt: "climate<br>smart<br>agriculture"}
-{fg: "#99b494", bg: "#664b6b", txt: "climate<br>smart<br>forestry"}
-{fg: "#595936", bg: "#a6a6c9", txt: "climate<br>variability"}
-{fg: "#2c5906", bg: "#d3a6f9", txt: "climate-change"}
-{fg: "#053c20", bg: "#fac3df", txt: "climatesmart"}
-{fg: "#9e4f56", bg: "#61b0a9", txt: "commercial<br>sex<br>worker"}
-{fg: "#82df41", bg: "#7d20be", txt: "community"}
-{fg: "#792f80", bg: "#86d07f", txt: "community<br>diversity"}
-{fg: "#42d2a8", bg: "#bd2d57", txt: "community<br>equity"}
-{fg: "#2bf952", bg: "#d406ad", txt: "confirmation<br>bias"}
-{fg: "#1d5ae7", bg: "#e2a518", txt: "contaminants<br>of<br>environmental<br>concern"}
-{fg: "#b9b3ab", bg: "#464c54", txt: "continuum"}
-{fg: "#12ffb1", bg: "#ed004e", txt: "Covid-19"}
-{fg: "#50905c", bg: "#af6fa3", txt: "cultural<br>competence"}
-{fg: "#e4b0a5", bg: "#1b4f5a", txt: "cultural<br>differences"}
-{fg: "#e2c408", bg: "#1d3bf7", txt: "cultural<br>heritage"}
-{fg: "#e855fe", bg: "#17aa01", txt: "cultural<br>relevance"}
-{fg: "#393397", bg: "#c6cc68", txt: "cultural<br>sensitivity"}
-{fg: "#8390f8", bg: "#7c6f07", txt: "culturally<br>appropriate"}
-{fg: "#2f6398", bg: "#d09c67", txt: "culturally<br>responsive"}
-{fg: "#30618b", bg: "#cf9e74", txt: "definition"}
-{fg: "#fb254b", bg: "#04dab4", txt: "DEI"}
-{fg: "#346f6c", bg: "#cb9093", txt: "DEIA"}
-{fg: "#bd1560", bg: "#42ea9f", txt: "DEIAB"}
-{fg: "#b9b9ce", bg: "#464631", txt: "DEIJ"}
-{fg: "#024081", bg: "#fdbf7e", txt: "diesel"}
-{fg: "#46522a", bg: "#b9add5", txt: "dietary<br>guidelines"}
-{fg: "#d415e8", bg: "#2bea17", txt: "disabilities"}
-{fg: "#b143bd", bg: "#4ebc42", txt: "disability"}
-{fg: "#075ae3", bg: "#f8a51c", txt: "disabled"}
-{fg: "#0bcca7", bg: "#f43358", txt: "disadvantaged"}
-{fg: "#94ae09", bg: "#6b51f6", txt: "discriminated"}
-{fg: "#974418", bg: "#68bbe7", txt: "discrimination"}
-{fg: "#848c17", bg: "#7b73e8", txt: "discriminatory"}
-{fg: "#b3e1e6", bg: "#4c1e19", txt: "discussion<br>of<br>federal<br>policies"}
-{fg: "#442713", bg: "#bbd8ec", txt: "disparity"}
-{fg: "#1e0f21", bg: "#e1f0de", txt: "diverse"}
-{fg: "#0eb4dc", bg: "#f14b23", txt: "diverse<br>backgrounds"}
-{fg: "#329067", bg: "#cd6f98", txt: "diverse<br>communities"}
-{fg: "#769c0b", bg: "#8963f4", txt: "diverse<br>community"}
-{fg: "#84aaef", bg: "#7b5510", txt: "diverse<br>group"}
-{fg: "#9e65ad", bg: "#619a52", txt: "diverse<br>groups"}
-{fg: "#78ad7d", bg: "#875282", txt: "diversified"}
-{fg: "#12ea57", bg: "#ed15a8", txt: "diversify"}
-{fg: "#a1f291", bg: "#5e0d6e", txt: "diversifying"}
-{fg: "#97081c", bg: "#68f7e3", txt: "diversity"}
-{fg: "#eecbab", bg: "#113454", txt: "diversity<br>and<br>inclusion"}
-{fg: "#64698a", bg: "#9b9675", txt: "EEJ"}
-{fg: "#d20e79", bg: "#2df186", txt: "EJ"}
-{fg: "#3b9da0", bg: "#c4625f", txt: "elderly"}
-{fg: "#a2b55a", bg: "#5d4aa5", txt: "electric<br>vehicle"}
-{fg: "#8048d6", bg: "#7fb729", txt: "energy<br>conversion"}
-{fg: "#34655f", bg: "#cb9aa0", txt: "enhance<br>the<br>diversity"}
-{fg: "#635cf6", bg: "#9ca309", txt: "enhancing<br>diversity"}
-{fg: "#79d479", bg: "#862b86", txt: "entitlement"}
-{fg: "#662ab1", bg: "#99d54e", txt: "environmental<br>justice"}
-{fg: "#0d2667", bg: "#f2d998", txt: "environmental<br>quality"}
-{fg: "#15990a", bg: "#ea66f5", txt: "equal<br>opportunity"}
-{fg: "#8d6af6", bg: "#729509", txt: "equality"}
-{fg: "#4e2a93", bg: "#b1d56c", txt: "equitable"}
-{fg: "#7e9cc9", bg: "#816336", txt: "equitableness"}
-{fg: "#c05f85", bg: "#3fa07a", txt: "equity"}
-{fg: "#f22f04", bg: "#0dd0fb", txt: "equity<br>efforts"}
-{fg: "#2d8f66", bg: "#d27099", txt: "ethanol"}
-{fg: "#6f93d0", bg: "#906c2f", txt: "ethnicity"}
-{fg: "#678b2b", bg: "#9874d4", txt: "evidence-based"}
-{fg: "#c2413b", bg: "#3dbec4", txt: "excluded"}
-{fg: "#f2c748", bg: "#0d38b7", txt: "exclusion"}
-{fg: "#63973c", bg: "#9c68c3", txt: "expression"}
-{fg: "#273b9a", bg: "#d8c465", txt: "female"}
-{fg: "#d8698f", bg: "#279670", txt: "females"}
-{fg: "#44a20d", bg: "#bb5df2", txt: "feminism"}
-{fg: "#016b03", bg: "#fe94fc", txt: "fetal<br>tissue<br>research"}
-{fg: "#485c99", bg: "#b7a366", txt: "fetus"}
-{fg: "#d68f8d", bg: "#297072", txt: "field<br>drainage"}
-{fg: "#6720b9", bg: "#98df46", txt: "fluoride"}
-{fg: "#8db9d8", bg: "#724627", txt: "fostering<br>inclusivity"}
-{fg: "#cacf5f", bg: "#3530a0", txt: "fuel<br>cell"}
-{fg: "#6e1187", bg: "#91ee78", txt: "gay"}
-{fg: "#f85a83", bg: "#07a57c", txt: "GBV"}
-{fg: "#cc90f1", bg: "#336f0e", txt: "gender"}
-{fg: "#a3a36c", bg: "#5c5c93", txt: "gender<br>based"}
-{fg: "#5bdc2c", bg: "#a423d3", txt: "gender<br>based<br>violence"}
-{fg: "#a48b6d", bg: "#5b7492", txt: "gender<br>diversity"}
-{fg: "#2938be", bg: "#d6c741", txt: "gender<br>identity"}
-{fg: "#e59bb9", bg: "#1a6446", txt: "gender<br>ideology"}
-{fg: "#b1ad29", bg: "#4e52d6", txt: "gender-affirming<br>care"}
-{fg: "#ae9f21", bg: "#5160de", txt: "gendered"}
-{fg: "#83bb1a", bg: "#7c44e5", txt: "genders"}
-{fg: "#fb4dc2", bg: "#04b23d", txt: "geothermal"}
-{fg: "#bb3b11", bg: "#44c4ee", txt: "global<br>warming"}
-{fg: "#9f2741", bg: "#60d8be", txt: "green"}
-{fg: "#f89c45", bg: "#0763ba", txt: "green<br>house<br>gas<br>emission"}
-{fg: "#2fade6", bg: "#d05219", txt: "green<br>house<br>gas<br>modeling"}
-{fg: "#80c91b", bg: "#7f36e4", txt: "green<br>house<br>gas<br>monitoring"}
-{fg: "#1fdf50", bg: "#e020af", txt: "green<br>infrastructure"}
-{fg: "#993636", bg: "#66c9c9", txt: "greenhouse<br>gas<br>emission"}
-{fg: "#da87da", bg: "#257825", txt: "groundwater<br>pollution"}
-{fg: "#782e42", bg: "#87d1bd", txt: "Gulf<br>of<br>Mexico"}
-{fg: "#aabece", bg: "#554131", txt: "H5N1<br>bird<br>flu"}
-{fg: "#0e6094", bg: "#f19f6b", txt: "hate"}
-{fg: "#5a5f23", bg: "#a5a0dc", txt: "hate<br>speech"}
-{fg: "#05a11e", bg: "#fa5ee1", txt: "health<br>disparity"}
-{fg: "#1d1b00", bg: "#e2e4ff", txt: "health<br>equity"}
-{fg: "#e0a039", bg: "#1f5fc6", txt: "hispanic"}
-{fg: "#3fb2e8", bg: "#c04d17", txt: "hispanic<br>minority"}
-{fg: "#5ca849", bg: "#a357b6", txt: "historically"}
-{fg: "#9750b8", bg: "#68af47", txt: "housing<br>affordability"}
-{fg: "#d63c42", bg: "#29c3bd", txt: "housing<br>efficiency"}
-{fg: "#d6111b", bg: "#29eee4", txt: "hydrogen<br>vehicle"}
-{fg: "#ff483d", bg: "#00b7c2", txt: "identity"}
-{fg: "#d5bed0", bg: "#2a412f", txt: "ideology"}
-{fg: "#5567de", bg: "#aa9821", txt: "immigrants"}
-{fg: "#5458e0", bg: "#aba71f", txt: "implicit<br>bias"}
-{fg: "#9a3402", bg: "#65cbfd", txt: "implicit<br>biases"}
-{fg: "#c17f8e", bg: "#3e8071", txt: "inclusion"}
-{fg: "#62628c", bg: "#9d9d73", txt: "inclusive"}
-{fg: "#ce2cac", bg: "#31d353", txt: "inclusive<br>leadership"}
-{fg: "#4cc334", bg: "#b33ccb", txt: "inclusiveness"}
-{fg: "#66a57c", bg: "#995a83", txt: "inclusivity"}
-{fg: "#17f338", bg: "#e80cc7", txt: "increase<br>diversity"}
-{fg: "#612145", bg: "#9edeba", txt: "increase<br>the<br>diversity"}
-{fg: "#6d59f8", bg: "#92a607", txt: "indigenous"}
-{fg: "#c4ceea", bg: "#3b3115", txt: "indigenous<br>community"}
-{fg: "#2287fa", bg: "#dd7805", txt: "indigenous<br>people"}
-{fg: "#ea38af", bg: "#15c750", txt: "inequalities"}
-{fg: "#4649a8", bg: "#b9b657", txt: "inequality"}
-{fg: "#f8d672", bg: "#07298d", txt: "inequitable"}
-{fg: "#ada887", bg: "#525778", txt: "inequities"}
-{fg: "#758ebb", bg: "#8a7144", txt: "injustice"}
-{fg: "#8b0d72", bg: "#74f28d", txt: "institutional"}
-{fg: "#776ea3", bg: "#88915c", txt: "integration"}
-{fg: "#a74f19", bg: "#58b0e6", txt: "intersectional"}
-{fg: "#d6a2b7", bg: "#295d48", txt: "intersectionality"}
-{fg: "#99726a", bg: "#668d95", txt: "intersex"}
-{fg: "#1b5dd6", bg: "#e4a229", txt: "issues<br>concerning<br>pending<br>legislation"}
-{fg: "#4e7f96", bg: "#b18069", txt: "justice40"}
-{fg: "#0bafd5", bg: "#f4502a", txt: "key<br>groups"}
-{fg: "#1edf7c", bg: "#e12083", txt: "key<br>people"}
-{fg: "#c1a2c3", bg: "#3e5d3c", txt: "key<br>populations"}
-{fg: "#9eb751", bg: "#6148ae", txt: "Latinx"}
-{fg: "#139ae1", bg: "#ec651e", txt: "lesbian"}
-{fg: "#44e7a4", bg: "#bb185b", txt: "LGBT"}
-{fg: "#d9f01d", bg: "#260fe2", txt: "LGBTQ"}
-{fg: "#f63643", bg: "#09c9bc", txt: "low-emission<br>vehicle"}
-{fg: "#e2221c", bg: "#1ddde3", txt: "low-income<br>housing"}
-{fg: "#cda902", bg: "#3256fd", txt: "male<br>dominated"}
-{fg: "#98f19b", bg: "#670e64", txt: "marginalize"}
-{fg: "#e30b1b", bg: "#1cf4e4", txt: "marginalized"}
-{fg: "#7c3536", bg: "#83cac9", txt: "marijuana"}
-{fg: "#3cb0ab", bg: "#c34f54", txt: "measles"}
-{fg: "#7d74f2", bg: "#828b0d", txt: "membrane<br>filtration"}
-{fg: "#7c4de1", bg: "#83b21e", txt: "men<br>who<br>have<br>sex<br>with<br>men"}
-{fg: "#739d8e", bg: "#8c6271", txt: "mental<br>health"}
-{fg: "#3a8695", bg: "#c5796a", txt: "methane<br>emissions"}
-{fg: "#9a099d", bg: "#65f662", txt: "microplastics"}
-{fg: "#6b1e92", bg: "#94e16d", txt: "migrant"}
-{fg: "#4c1414", bg: "#b3ebeb", txt: "minorities"}
-{fg: "#d8d439", bg: "#272bc6", txt: "minority"}
-{fg: "#6f4c5e", bg: "#90b3a1", txt: "minority<br>serving<br>institution"}
-{fg: "#31d5e5", bg: "#ce2a1a", txt: "most<br>risk"}
-{fg: "#8726e3", bg: "#78d91c", txt: "MSI"}
-{fg: "#f58ff8", bg: "#0a7007", txt: "msm"}
-{fg: "#e168eb", bg: "#1e9714", txt: "multicultural"}
-{fg: "#51351e", bg: "#aecae1", txt: "Mx"}
-{fg: "#8dbaf2", bg: "#72450d", txt: "Native<br>American"}
-{fg: "#74b0b0", bg: "#8b4f4f", txt: "NCI<br>budget"}
-{fg: "#14b2ba", bg: "#eb4d45", txt: "net-zero"}
-{fg: "#795b0e", bg: "#86a4f1", txt: "non-binary"}
-{fg: "#d04c70", bg: "#2fb38f", txt: "non-conforming"}
-{fg: "#a025e7", bg: "#5fda18", txt: "nonbinary"}
-{fg: "#ec9903", bg: "#1366fc", txt: "noncitizen"}
-{fg: "#a62c0e", bg: "#59d3f1", txt: "nonpoint<br>source<br>pollution"}
-{fg: "#b24532", bg: "#4dbacd", txt: "nuclear<br>energy"}
-{fg: "#af20bf", bg: "#50df40", txt: "nuclear<br>power"}
-{fg: "#18e18b", bg: "#e71e74", txt: "obesity"}
-{fg: "#550b92", bg: "#aaf46d", txt: "opioids"}
-{fg: "#5a0a71", bg: "#a5f58e", txt: "oppression"}
-{fg: "#21edcf", bg: "#de1230", txt: "oppressive"}
-{fg: "#da1639", bg: "#25e9c6", txt: "orientation"}
-{fg: "#b913ed", bg: "#46ec12", txt: "pansexual"}
-{fg: "#9c34eb", bg: "#63cb14", txt: "PCB"}
-{fg: "#5fb4c1", bg: "#a04b3e", txt: "peanut<br>allergies"}
-{fg: "#f0a2f7", bg: "#0f5d08", txt: "people<br>+<br>uterus"}
-{fg: "#525460", bg: "#adab9f", txt: "people<br>of<br>color"}
-{fg: "#af02f4", bg: "#50fd0b", txt: "people-centered<br>care"}
-{fg: "#8e1b55", bg: "#71e4aa", txt: "person-centered"}
-{fg: "#22fb34", bg: "#dd04cb", txt: "person-centered<br>care"}
-{fg: "#059151", bg: "#fa6eae", txt: "PFAS"}
-{fg: "#95d712", bg: "#6a28ed", txt: "PFOA"}
-{fg: "#84bcf1", bg: "#7b430e", txt: "photovoltaic"}
-{fg: "#a9101d", bg: "#56efe2", txt: "polarization"}
-{fg: "#df1f05", bg: "#20e0fa", txt: "political"}
-{fg: "#d37a8f", bg: "#2c8570", txt: "pollution"}
-{fg: "#6262fc", bg: "#9d9d03", txt: "pollution<br>abatement"}
-{fg: "#75ac01", bg: "#8a53fe", txt: "pollution<br>remediation"}
-{fg: "#b4bf97", bg: "#4b4068", txt: "prefabricated<br>housing"}
-{fg: "#60e6bc", bg: "#9f1943", txt: "pregnant<br>people"}
-{fg: "#aa4a60", bg: "#55b59f", txt: "pregnant<br>person"}
-{fg: "#a13069", bg: "#5ecf96", txt: "pregnant<br>persons"}
-{fg: "#2bc5f6", bg: "#d43a09", txt: "prejudice"}
-{fg: "#fafacd", bg: "#050532", txt: "privilege"}
-{fg: "#18a4b0", bg: "#e75b4f", txt: "privileges"}
-{fg: "#eeefc0", bg: "#11103f", txt: "promote"}
-{fg: "#7185fb", bg: "#8e7a04", txt: "promote<br>diversity"}
-{fg: "#056745", bg: "#fa98ba", txt: "promoting<br>diversity"}
-{fg: "#02de72", bg: "#fd218d", txt: "pronoun"}
-{fg: "#412995", bg: "#bed66a", txt: "pronouns"}
-{fg: "#4b49dc", bg: "#b4b623", txt: "prostitute"}
-{fg: "#c34cfc", bg: "#3cb303", txt: "pyrolysis"}
-{fg: "#33b8d7", bg: "#cc4728", txt: "QT"}
-{fg: "#ce95cd", bg: "#316a32", txt: "queer"}
-{fg: "#2e2a7a", bg: "#d1d585", txt: "race"}
-{fg: "#95bf6a", bg: "#6a4095", txt: "race<br>and<br>ethnicity"}
-{fg: "#769f0c", bg: "#8960f3", txt: "racial"}
-{fg: "#407fdb", bg: "#bf8024", txt: "racial<br>diversity"}
-{fg: "#861755", bg: "#79e8aa", txt: "racial<br>identity"}
-{fg: "#eebc29", bg: "#1143d6", txt: "racial<br>inequity"}
-{fg: "#93ccd2", bg: "#6c332d", txt: "racial<br>justice"}
-{fg: "#eb5a90", bg: "#14a56f", txt: "racially"}
-{fg: "#12692a", bg: "#ed96d5", txt: "racism"}
-{fg: "#f88406", bg: "#077bf9", txt: "runoff"}
-{fg: "#2bfa98", bg: "#d40567", txt: "rural<br>water"}
-{fg: "#b7e2ee", bg: "#481d11", txt: "safe<br>drinking<br>water"}
-{fg: "#186f7d", bg: "#e79082", txt: "science-based"}
-{fg: "#9d3e3c", bg: "#62c1c3", txt: "sediment<br>remediation"}
-{fg: "#62c8a9", bg: "#9d3756", txt: "segregation"}
-{fg: "#b4856d", bg: "#4b7a92", txt: "self-assessed"}
-{fg: "#308f0d", bg: "#cf70f2", txt: "sense<br>of<br>belonging"}
-{fg: "#3c3662", bg: "#c3c99d", txt: "sex"}
-{fg: "#b8ea0d", bg: "#4715f2", txt: "sexual<br>preferences"}
-{fg: "#305da8", bg: "#cfa257", txt: "sexuality"}
-{fg: "#1277ff", bg: "#ed8800", txt: "social<br>justice"}
-{fg: "#8c0227", bg: "#73fdd8", txt: "social<br>vulnerability"}
-{fg: "#026adb", bg: "#fd9524", txt: "socio<br>cultural"}
-{fg: "#f7a3b5", bg: "#085c4a", txt: "socio<br>economic"}
-{fg: "#97ff97", bg: "#680068", txt: "sociocultural"}
-{fg: "#3f6387", bg: "#c09c78", txt: "socioeconomic<br>status"}
-{fg: "#e1376d", bg: "#1ec892", txt: "soil<br>pollution"}
-{fg: "#487b7e", bg: "#b78481", txt: "solar<br>energy"}
-{fg: "#59c140", bg: "#a63ebf", txt: "solar<br>power"}
-{fg: "#8bf738", bg: "#7408c7", txt: "special<br>populations"}
-{fg: "#136710", bg: "#ec98ef", txt: "stem<br>cell<br>research"}
-{fg: "#a31b29", bg: "#5ce4d6", txt: "stereotype"}
-{fg: "#1ff394", bg: "#e00c6b", txt: "stereotypes"}
-{fg: "#fd011b", bg: "#02fee4", txt: "subsidized<br>housing"}
-{fg: "#b39943", bg: "#4c66bc", txt: "sustainable<br>construction"}
-{fg: "#87e081", bg: "#781f7e", txt: "systemic"}
-{fg: "#beb242", bg: "#414dbd", txt: "they/them"}
-{fg: "#1a9db1", bg: "#e5624e", txt: "tile<br>drainage"}
-{fg: "#473801", bg: "#b8c7fe", txt: "trans"}
-{fg: "#35e460", bg: "#ca1b9f", txt: "transexual"}
-{fg: "#54019a", bg: "#abfe65", txt: "transgender"}
-{fg: "#c9179d", bg: "#36e862", txt: "transitional<br>housing"}
-{fg: "#d659bf", bg: "#29a640", txt: "trauma"}
-{fg: "#0c3104", bg: "#f3cefb", txt: "traumatic"}
-{fg: "#56be71", bg: "#a9418e", txt: "tribal"}
-{fg: "#97a6ae", bg: "#685951", txt: "two-spirit"}
-{fg: "#d5da93", bg: "#2a256c", txt: "ultraprocessed<br>foods"}
-{fg: "#87bb28", bg: "#7844d7", txt: "unconscious<br>bias"}
-{fg: "#e49f72", bg: "#1b608d", txt: "under<br>appreciated"}
-{fg: "#3f6498", bg: "#c09b67", txt: "under<br>represented"}
-{fg: "#75c648", bg: "#8a39b7", txt: "under<br>served"}
-{fg: "#401496", bg: "#bfeb69", txt: "underprivileged"}
-{fg: "#7134f9", bg: "#8ecb06", txt: "underrepresentation"}
-{fg: "#90979e", bg: "#6f6861", txt: "underrepresented"}
-{fg: "#285c17", bg: "#d7a3e8", txt: "underserved"}
-{fg: "#4ccd4b", bg: "#b332b4", txt: "understudied"}
-{fg: "#403360", bg: "#bfcc9f", txt: "undervalued"}
-{fg: "#c9bb57", bg: "#3644a8", txt: "vaccines"}
-{fg: "#96d497", bg: "#692b68", txt: "victim"}
-{fg: "#a91559", bg: "#56eaa6", txt: "victims"}
-{fg: "#25890d", bg: "#da76f2", txt: "vulnerable"}
-{fg: "#8cf9e3", bg: "#73061c", txt: "vulnerable<br>populations"}
-{fg: "#24a230", bg: "#db5dcf", txt: "water<br>collection"}
-{fg: "#57dc0c", bg: "#a823f3", txt: "water<br>conservation"}
-{fg: "#78f95b", bg: "#8706a4", txt: "water<br>distribution"}
-{fg: "#c36ada", bg: "#3c9525", txt: "water<br>efficiency"}
-{fg: "#d8c232", bg: "#273dcd", txt: "water<br>management"}
-{fg: "#94caad", bg: "#6b3552", txt: "water<br>pollution"}
-{fg: "#970122", bg: "#68fedd", txt: "water<br>quality"}
-{fg: "#00dc0e", bg: "#ff23f1", txt: "water<br>storage"}
-{fg: "#490a32", bg: "#b6f5cd", txt: "water<br>treatment"}
-{fg: "#3c651d", bg: "#c39ae2", txt: "wind<br>power"}
-{fg: "#56609a", bg: "#a99f65", txt: "woman"}
-{fg: "#8267a0", bg: "#7d985f", txt: "women"}
-{fg: "#d5d2c4", bg: "#2a2d3b", txt: "women<br>and<br>underrepresented"}
+{fg: "#4808d6", bg: "#b7f729", txt: "abortion"},
+{fg: "#0ff85b", bg: "#f007a4", txt: "accessibility"},
+{fg: "#4be3ba", bg: "#b41c45", txt: "accessible"},
+{fg: "#616105", bg: "#9e9efa", txt: "activism"},
+{fg: "#90fd83", bg: "#6f027c", txt: "activists"},
+{fg: "#b94ad9", bg: "#46b526", txt: "advocacy"},
+{fg: "#b3a7cc", bg: "#4c5833", txt: "advocate"},
+{fg: "#32fa65", bg: "#cd059a", txt: "advocates"},
+{fg: "#1f9036", bg: "#e06fc9", txt: "affirming care"},
+{fg: "#765775", bg: "#89a88a", txt: "affordable home"},
+{fg: "#34fdac", bg: "#cb0253", txt: "affordable housing"},
+{fg: "#30c024", bg: "#cf3fdb", txt: "agricultural water"},
+{fg: "#4a6a39", bg: "#b595c6", txt: "agrivoltaics"},
+{fg: "#6018c5", bg: "#9fe73a", txt: "air pollution"},
+{fg: "#f53db6", bg: "#0ac249", txt: "all-inclusive"},
+{fg: "#9d3020", bg: "#62cfdf", txt: "allyship"},
+{fg: "#bf2810", bg: "#40d7ef", txt: "alternative energy"},
+{fg: "#2f0f99", bg: "#d0f066", txt: "anti-racism"},
+{fg: "#e7d8d8", bg: "#182727", txt: "antiracist"},
+{fg: "#7f9bd2", bg: "#80642d", txt: "asexual"},
+{fg: "#db4097", bg: "#24bf68", txt: "assigned at birth"},
+{fg: "#5f6279", bg: "#a09d86", txt: "assigned female at birth"},
+{fg: "#d10f6c", bg: "#2ef093", txt: "assigned male at birth"},
+{fg: "#9bbb51", bg: "#6444ae", txt: "at risk"},
+{fg: "#8603aa", bg: "#79fc55", txt: "autism"},
+{fg: "#49e484", bg: "#b61b7b", txt: "aviation fuel"},
+{fg: "#fa9c8a", bg: "#056375", txt: "barrier"},
+{fg: "#ececb5", bg: "#13134a", txt: "barriers"},
+{fg: "#e455e6", bg: "#1baa19", txt: "belong"},
+{fg: "#1603f7", bg: "#e9fc08", txt: "bias"},
+{fg: "#b14bba", bg: "#4eb445", txt: "biased"},
+{fg: "#b138f1", bg: "#4ec70e", txt: "biased toward"},
+{fg: "#a1eb90", bg: "#5e146f", txt: "biases"},
+{fg: "#cd7d29", bg: "#3282d6", txt: "biases towards"},
+{fg: "#58e0a6", bg: "#a71f59", txt: "bioenergy"},
+{fg: "#9836b7", bg: "#67c948", txt: "biofuel"},
+{fg: "#bb9ad0", bg: "#44652f", txt: "biogas"},
+{fg: "#ab329f", bg: "#54cd60", txt: "biologically female"},
+{fg: "#e7b501", bg: "#184afe", txt: "biologically male"},
+{fg: "#36ef6f", bg: "#c91090", txt: "biomethane"},
+{fg: "#202a37", bg: "#dfd5c8", txt: "bipoc"},
+{fg: "#242fb4", bg: "#dbd04b", txt: "bisexual"},
+{fg: "#1ffd9e", bg: "#e00261", txt: "black"},
+{fg: "#2e9bcd", bg: "#d16432", txt: "black and latinx"},
+{fg: "#9a1c5c", bg: "#65e3a3", txt: "breastfeed + people"},
+{fg: "#7ab147", bg: "#854eb8", txt: "breastfeed + person"},
+{fg: "#688882", bg: "#97777d", txt: "cancer moonshot"},
+{fg: "#5d59bd", bg: "#a2a642", txt: "carbon emissions mitigation"},
+{fg: "#c5a8c1", bg: "#3a573e", txt: "carbon footprint"},
+{fg: "#d7cf8b", bg: "#283074", txt: "carbon markets"},
+{fg: "#ab5612", bg: "#54a9ed", txt: "carbon pricing"},
+{fg: "#240e06", bg: "#dbf1f9", txt: "carbon sequestration"},
+{fg: "#5724fb", bg: "#a8db04", txt: "CEC"},
+{fg: "#67c609", bg: "#9839f6", txt: "changing climate"},
+{fg: "#a0ba9c", bg: "#5f4563", txt: "chestfeed + people"},
+{fg: "#ba00e6", bg: "#45ff19", txt: "chestfeed + person"},
+{fg: "#1b846a", bg: "#e47b95", txt: "clean energy"},
+{fg: "#640ab1", bg: "#9bf54e", txt: "clean fuel"},
+{fg: "#73a555", bg: "#8c5aaa", txt: "clean power"},
+{fg: "#90a97a", bg: "#6f5685", txt: "clean water"},
+{fg: "#0b8535", bg: "#f47aca", txt: "climate"},
+{fg: "#7e0b46", bg: "#81f4b9", txt: "climate accountability"},
+{fg: "#9f71d6", bg: "#608e29", txt: "climate change"},
+{fg: "#b0e9ec", bg: "#4f1613", txt: "climate consulting"},
+{fg: "#28df74", bg: "#d7208b", txt: "climate crisis"},
+{fg: "#d5b7c5", bg: "#2a483a", txt: "climate model"},
+{fg: "#59bcc0", bg: "#a6433f", txt: "climate models"},
+{fg: "#9168f4", bg: "#6e970b", txt: "climate resilience"},
+{fg: "#56bd17", bg: "#a942e8", txt: "climate risk"},
+{fg: "#a30134", bg: "#5cfecb", txt: "climate science"},
+{fg: "#d596b1", bg: "#2a694e", txt: "climate smart agriculture"},
+{fg: "#88453e", bg: "#77bac1", txt: "climate smart forestry"},
+{fg: "#7c7cfa", bg: "#838305", txt: "climate variability"},
+{fg: "#2c5906", bg: "#d3a6f9", txt: "climate-change"},
+{fg: "#053c20", bg: "#fac3df", txt: "climatesmart"},
+{fg: "#32b85b", bg: "#cd47a4", txt: "commercial sex worker"},
+{fg: "#82df41", bg: "#7d20be", txt: "community"},
+{fg: "#a05b17", bg: "#5fa4e8", txt: "community diversity"},
+{fg: "#232897", bg: "#dcd768", txt: "community equity"},
+{fg: "#fbd68e", bg: "#042971", txt: "confirmation bias"},
+{fg: "#5d6f23", bg: "#a290dc", txt: "contaminants of environmental concern"},
+{fg: "#b9b3ab", bg: "#464c54", txt: "continuum"},
+{fg: "#12ffb1", bg: "#ed004e", txt: "Covid-19"},
+{fg: "#360b96", bg: "#c9f469", txt: "cultural competence"},
+{fg: "#a97424", bg: "#568bdb", txt: "cultural differences"},
+{fg: "#caf186", bg: "#350e79", txt: "cultural heritage"},
+{fg: "#e95622", bg: "#16a9dd", txt: "cultural relevance"},
+{fg: "#61ed70", bg: "#9e128f", txt: "cultural sensitivity"},
+{fg: "#17cf05", bg: "#e830fa", txt: "culturally appropriate"},
+{fg: "#2361fc", bg: "#dc9e03", txt: "culturally responsive"},
+{fg: "#30618b", bg: "#cf9e74", txt: "definition"},
+{fg: "#fb254b", bg: "#04dab4", txt: "DEI"},
+{fg: "#346f6c", bg: "#cb9093", txt: "DEIA"},
+{fg: "#bd1560", bg: "#42ea9f", txt: "DEIAB"},
+{fg: "#b9b9ce", bg: "#464631", txt: "DEIJ"},
+{fg: "#024081", bg: "#fdbf7e", txt: "diesel"},
+{fg: "#39e5f8", bg: "#c61a07", txt: "dietary guidelines"},
+{fg: "#d415e8", bg: "#2bea17", txt: "disabilities"},
+{fg: "#b143bd", bg: "#4ebc42", txt: "disability"},
+{fg: "#075ae3", bg: "#f8a51c", txt: "disabled"},
+{fg: "#0bcca7", bg: "#f43358", txt: "disadvantaged"},
+{fg: "#94ae09", bg: "#6b51f6", txt: "discriminated"},
+{fg: "#974418", bg: "#68bbe7", txt: "discrimination"},
+{fg: "#848c17", bg: "#7b73e8", txt: "discriminatory"},
+{fg: "#530291", bg: "#acfd6e", txt: "discussion of federal policies"},
+{fg: "#442713", bg: "#bbd8ec", txt: "disparity"},
+{fg: "#1e0f21", bg: "#e1f0de", txt: "diverse"},
+{fg: "#15e14a", bg: "#ea1eb5", txt: "diverse backgrounds"},
+{fg: "#3975e7", bg: "#c68a18", txt: "diverse communities"},
+{fg: "#df0499", bg: "#20fb66", txt: "diverse community"},
+{fg: "#1fc0e8", bg: "#e03f17", txt: "diverse group"},
+{fg: "#90bafa", bg: "#6f4505", txt: "diverse groups"},
+{fg: "#78ad7d", bg: "#875282", txt: "diversified"},
+{fg: "#12ea57", bg: "#ed15a8", txt: "diversify"},
+{fg: "#a1f291", bg: "#5e0d6e", txt: "diversifying"},
+{fg: "#97081c", bg: "#68f7e3", txt: "diversity"},
+{fg: "#58a1c3", bg: "#a75e3c", txt: "diversity and inclusion"},
+{fg: "#64698a", bg: "#9b9675", txt: "EEJ"},
+{fg: "#d20e79", bg: "#2df186", txt: "EJ"},
+{fg: "#3b9da0", bg: "#c4625f", txt: "elderly"},
+{fg: "#1332cd", bg: "#eccd32", txt: "electric vehicle"},
+{fg: "#b3dc17", bg: "#4c23e8", txt: "energy conversion"},
+{fg: "#a94976", bg: "#56b689", txt: "enhance the diversity"},
+{fg: "#4371f9", bg: "#bc8e06", txt: "enhancing diversity"},
+{fg: "#79d479", bg: "#862b86", txt: "entitlement"},
+{fg: "#40e536", bg: "#bf1ac9", txt: "environmental justice"},
+{fg: "#9ce654", bg: "#6319ab", txt: "environmental quality"},
+{fg: "#96567e", bg: "#69a981", txt: "equal opportunity"},
+{fg: "#8d6af6", bg: "#729509", txt: "equality"},
+{fg: "#4e2a93", bg: "#b1d56c", txt: "equitable"},
+{fg: "#7e9cc9", bg: "#816336", txt: "equitableness"},
+{fg: "#c05f85", bg: "#3fa07a", txt: "equity"},
+{fg: "#22795c", bg: "#dd86a3", txt: "equity efforts"},
+{fg: "#2d8f66", bg: "#d27099", txt: "ethanol"},
+{fg: "#6f93d0", bg: "#906c2f", txt: "ethnicity"},
+{fg: "#678b2b", bg: "#9874d4", txt: "evidence-based"},
+{fg: "#c2413b", bg: "#3dbec4", txt: "excluded"},
+{fg: "#f2c748", bg: "#0d38b7", txt: "exclusion"},
+{fg: "#63973c", bg: "#9c68c3", txt: "expression"},
+{fg: "#273b9a", bg: "#d8c465", txt: "female"},
+{fg: "#d8698f", bg: "#279670", txt: "females"},
+{fg: "#44a20d", bg: "#bb5df2", txt: "feminism"},
+{fg: "#56483e", bg: "#a9b7c1", txt: "fetal tissue research"},
+{fg: "#485c99", bg: "#b7a366", txt: "fetus"},
+{fg: "#6ba2da", bg: "#945d25", txt: "field drainage"},
+{fg: "#6720b9", bg: "#98df46", txt: "fluoride"},
+{fg: "#8895c3", bg: "#776a3c", txt: "fostering inclusivity"},
+{fg: "#abb526", bg: "#544ad9", txt: "fuel cell"},
+{fg: "#6e1187", bg: "#91ee78", txt: "gay"},
+{fg: "#f85a83", bg: "#07a57c", txt: "GBV"},
+{fg: "#cc90f1", bg: "#336f0e", txt: "gender"},
+{fg: "#0e6f25", bg: "#f190da", txt: "gender based"},
+{fg: "#bc7bbd", bg: "#438442", txt: "gender based violence"},
+{fg: "#e9b711", bg: "#1648ee", txt: "gender diversity"},
+{fg: "#f4dfab", bg: "#0b2054", txt: "gender identity"},
+{fg: "#a057b0", bg: "#5fa84f", txt: "gender ideology"},
+{fg: "#c124ed", bg: "#3edb12", txt: "gender-affirming care"},
+{fg: "#ae9f21", bg: "#5160de", txt: "gendered"},
+{fg: "#83bb1a", bg: "#7c44e5", txt: "genders"},
+{fg: "#fb4dc2", bg: "#04b23d", txt: "geothermal"},
+{fg: "#625da9", bg: "#9da256", txt: "global warming"},
+{fg: "#9f2741", bg: "#60d8be", txt: "green"},
+{fg: "#3106c2", bg: "#cef93d", txt: "green house gas emission"},
+{fg: "#f82a0d", bg: "#07d5f2", txt: "green house gas modeling"},
+{fg: "#74ece7", bg: "#8b1318", txt: "green house gas monitoring"},
+{fg: "#6a76db", bg: "#958924", txt: "green infrastructure"},
+{fg: "#faca36", bg: "#0535c9", txt: "greenhouse gas emission"},
+{fg: "#3e42bf", bg: "#c1bd40", txt: "groundwater pollution"},
+{fg: "#be39bb", bg: "#41c644", txt: "Gulf of Mexico"},
+{fg: "#0faf6b", bg: "#f05094", txt: "H5N1 bird flu"},
+{fg: "#0e6094", bg: "#f19f6b", txt: "hate"},
+{fg: "#6e734c", bg: "#918cb3", txt: "hate speech"},
+{fg: "#b43c9a", bg: "#4bc365", txt: "health disparity"},
+{fg: "#ded123", bg: "#212edc", txt: "health equity"},
+{fg: "#e0a039", bg: "#1f5fc6", txt: "hispanic"},
+{fg: "#762594", bg: "#89da6b", txt: "hispanic minority"},
+{fg: "#5ca849", bg: "#a357b6", txt: "historically"},
+{fg: "#653393", bg: "#9acc6c", txt: "housing affordability"},
+{fg: "#1057eb", bg: "#efa814", txt: "housing efficiency"},
+{fg: "#0cd62d", bg: "#f329d2", txt: "hydrogen vehicle"},
+{fg: "#ff483d", bg: "#00b7c2", txt: "identity"},
+{fg: "#d5bed0", bg: "#2a412f", txt: "ideology"},
+{fg: "#5567de", bg: "#aa9821", txt: "immigrants"},
+{fg: "#2e880b", bg: "#d177f4", txt: "implicit bias"},
+{fg: "#a7c2ce", bg: "#583d31", txt: "implicit biases"},
+{fg: "#c17f8e", bg: "#3e8071", txt: "inclusion"},
+{fg: "#62628c", bg: "#9d9d73", txt: "inclusive"},
+{fg: "#2f951e", bg: "#d06ae1", txt: "inclusive leadership"},
+{fg: "#4cc334", bg: "#b33ccb", txt: "inclusiveness"},
+{fg: "#66a57c", bg: "#995a83", txt: "inclusivity"},
+{fg: "#c3f317", bg: "#3c0ce8", txt: "increase diversity"},
+{fg: "#3c6298", bg: "#c39d67", txt: "increase the diversity"},
+{fg: "#6d59f8", bg: "#92a607", txt: "indigenous"},
+{fg: "#1bcbf1", bg: "#e4340e", txt: "indigenous community"},
+{fg: "#c299fd", bg: "#3d6602", txt: "indigenous people"},
+{fg: "#ea38af", bg: "#15c750", txt: "inequalities"},
+{fg: "#4649a8", bg: "#b9b657", txt: "inequality"},
+{fg: "#f8d672", bg: "#07298d", txt: "inequitable"},
+{fg: "#ada887", bg: "#525778", txt: "inequities"},
+{fg: "#758ebb", bg: "#8a7144", txt: "injustice"},
+{fg: "#8b0d72", bg: "#74f28d", txt: "institutional"},
+{fg: "#776ea3", bg: "#88915c", txt: "integration"},
+{fg: "#a74f19", bg: "#58b0e6", txt: "intersectional"},
+{fg: "#d6a2b7", bg: "#295d48", txt: "intersectionality"},
+{fg: "#99726a", bg: "#668d95", txt: "intersex"},
+{fg: "#bf2f49", bg: "#40d0b6", txt: "issues concerning pending legislation"},
+{fg: "#4e7f96", bg: "#b18069", txt: "justice40"},
+{fg: "#8341e2", bg: "#7cbe1d", txt: "key groups"},
+{fg: "#8f6920", bg: "#7096df", txt: "key people"},
+{fg: "#d4f22a", bg: "#2b0dd5", txt: "key populations"},
+{fg: "#9eb751", bg: "#6148ae", txt: "Latinx"},
+{fg: "#139ae1", bg: "#ec651e", txt: "lesbian"},
+{fg: "#44e7a4", bg: "#bb185b", txt: "LGBT"},
+{fg: "#d9f01d", bg: "#260fe2", txt: "LGBTQ"},
+{fg: "#9f8b41", bg: "#6074be", txt: "low-emission vehicle"},
+{fg: "#51388c", bg: "#aec773", txt: "low-income housing"},
+{fg: "#1ac671", bg: "#e5398e", txt: "male dominated"},
+{fg: "#98f19b", bg: "#670e64", txt: "marginalize"},
+{fg: "#e30b1b", bg: "#1cf4e4", txt: "marginalized"},
+{fg: "#7c3536", bg: "#83cac9", txt: "marijuana"},
+{fg: "#3cb0ab", bg: "#c34f54", txt: "measles"},
+{fg: "#381f38", bg: "#c7e0c7", txt: "membrane filtration"},
+{fg: "#eb13f2", bg: "#14ec0d", txt: "men who have sex with men"},
+{fg: "#3f2458", bg: "#c0dba7", txt: "mental health"},
+{fg: "#304dde", bg: "#cfb221", txt: "methane emissions"},
+{fg: "#9a099d", bg: "#65f662", txt: "microplastics"},
+{fg: "#6b1e92", bg: "#94e16d", txt: "migrant"},
+{fg: "#4c1414", bg: "#b3ebeb", txt: "minorities"},
+{fg: "#d8d439", bg: "#272bc6", txt: "minority"},
+{fg: "#2b2027", bg: "#d4dfd8", txt: "minority serving institution"},
+{fg: "#6fe850", bg: "#9017af", txt: "most risk"},
+{fg: "#8726e3", bg: "#78d91c", txt: "MSI"},
+{fg: "#f58ff8", bg: "#0a7007", txt: "msm"},
+{fg: "#e168eb", bg: "#1e9714", txt: "multicultural"},
+{fg: "#51351e", bg: "#aecae1", txt: "Mx"},
+{fg: "#cae8a0", bg: "#35175f", txt: "Native American"},
+{fg: "#18797b", bg: "#e78684", txt: "NCI budget"},
+{fg: "#14b2ba", bg: "#eb4d45", txt: "net-zero"},
+{fg: "#795b0e", bg: "#86a4f1", txt: "non-binary"},
+{fg: "#d04c70", bg: "#2fb38f", txt: "non-conforming"},
+{fg: "#a025e7", bg: "#5fda18", txt: "nonbinary"},
+{fg: "#ec9903", bg: "#1366fc", txt: "noncitizen"},
+{fg: "#7cad0d", bg: "#8352f2", txt: "nonpoint source pollution"},
+{fg: "#91dee6", bg: "#6e2119", txt: "nuclear energy"},
+{fg: "#01fc90", bg: "#fe036f", txt: "nuclear power"},
+{fg: "#18e18b", bg: "#e71e74", txt: "obesity"},
+{fg: "#550b92", bg: "#aaf46d", txt: "opioids"},
+{fg: "#5a0a71", bg: "#a5f58e", txt: "oppression"},
+{fg: "#21edcf", bg: "#de1230", txt: "oppressive"},
+{fg: "#da1639", bg: "#25e9c6", txt: "orientation"},
+{fg: "#b913ed", bg: "#46ec12", txt: "pansexual"},
+{fg: "#9c34eb", bg: "#63cb14", txt: "PCB"},
+{fg: "#8c240d", bg: "#73dbf2", txt: "peanut allergies"},
+{fg: "#24df92", bg: "#db206d", txt: "people + uterus"},
+{fg: "#bf6353", bg: "#409cac", txt: "people of color"},
+{fg: "#a68b92", bg: "#59746d", txt: "people-centered care"},
+{fg: "#8e1b55", bg: "#71e4aa", txt: "person-centered"},
+{fg: "#866656", bg: "#7999a9", txt: "person-centered care"},
+{fg: "#059151", bg: "#fa6eae", txt: "PFAS"},
+{fg: "#95d712", bg: "#6a28ed", txt: "PFOA"},
+{fg: "#84bcf1", bg: "#7b430e", txt: "photovoltaic"},
+{fg: "#a9101d", bg: "#56efe2", txt: "polarization"},
+{fg: "#df1f05", bg: "#20e0fa", txt: "political"},
+{fg: "#d37a8f", bg: "#2c8570", txt: "pollution"},
+{fg: "#a56393", bg: "#5a9c6c", txt: "pollution abatement"},
+{fg: "#d355e5", bg: "#2caa1a", txt: "pollution remediation"},
+{fg: "#8733d0", bg: "#78cc2f", txt: "prefabricated housing"},
+{fg: "#a97d35", bg: "#5682ca", txt: "pregnant people"},
+{fg: "#e8e09b", bg: "#171f64", txt: "pregnant person"},
+{fg: "#bc3247", bg: "#43cdb8", txt: "pregnant persons"},
+{fg: "#2bc5f6", bg: "#d43a09", txt: "prejudice"},
+{fg: "#fafacd", bg: "#050532", txt: "privilege"},
+{fg: "#18a4b0", bg: "#e75b4f", txt: "privileges"},
+{fg: "#eeefc0", bg: "#11103f", txt: "promote"},
+{fg: "#cc5f8a", bg: "#33a075", txt: "promote diversity"},
+{fg: "#477dab", bg: "#b88254", txt: "promoting diversity"},
+{fg: "#02de72", bg: "#fd218d", txt: "pronoun"},
+{fg: "#412995", bg: "#bed66a", txt: "pronouns"},
+{fg: "#4b49dc", bg: "#b4b623", txt: "prostitute"},
+{fg: "#c34cfc", bg: "#3cb303", txt: "pyrolysis"},
+{fg: "#33b8d7", bg: "#cc4728", txt: "QT"},
+{fg: "#ce95cd", bg: "#316a32", txt: "queer"},
+{fg: "#2e2a7a", bg: "#d1d585", txt: "race"},
+{fg: "#0eaa60", bg: "#f1559f", txt: "race and ethnicity"},
+{fg: "#769f0c", bg: "#8960f3", txt: "racial"},
+{fg: "#daf687", bg: "#250978", txt: "racial diversity"},
+{fg: "#6588e1", bg: "#9a771e", txt: "racial identity"},
+{fg: "#6d8478", bg: "#927b87", txt: "racial inequity"},
+{fg: "#1933c0", bg: "#e6cc3f", txt: "racial justice"},
+{fg: "#eb5a90", bg: "#14a56f", txt: "racially"},
+{fg: "#12692a", bg: "#ed96d5", txt: "racism"},
+{fg: "#f88406", bg: "#077bf9", txt: "runoff"},
+{fg: "#c97661", bg: "#36899e", txt: "rural water"},
+{fg: "#3fa97b", bg: "#c05684", txt: "safe drinking water"},
+{fg: "#186f7d", bg: "#e79082", txt: "science-based"},
+{fg: "#e03736", bg: "#1fc8c9", txt: "sediment remediation"},
+{fg: "#62c8a9", bg: "#9d3756", txt: "segregation"},
+{fg: "#b4856d", bg: "#4b7a92", txt: "self-assessed"},
+{fg: "#ff9698", bg: "#006967", txt: "sense of belonging"},
+{fg: "#3c3662", bg: "#c3c99d", txt: "sex"},
+{fg: "#1195c0", bg: "#ee6a3f", txt: "sexual preferences"},
+{fg: "#305da8", bg: "#cfa257", txt: "sexuality"},
+{fg: "#330229", bg: "#ccfdd6", txt: "social justice"},
+{fg: "#a97135", bg: "#568eca", txt: "social vulnerability"},
+{fg: "#b45e03", bg: "#4ba1fc", txt: "socio cultural"},
+{fg: "#c06bf5", bg: "#3f940a", txt: "socio economic"},
+{fg: "#97ff97", bg: "#680068", txt: "sociocultural"},
+{fg: "#b1c4b5", bg: "#4e3b4a", txt: "socioeconomic status"},
+{fg: "#79b01c", bg: "#864fe3", txt: "soil pollution"},
+{fg: "#a11a9b", bg: "#5ee564", txt: "solar energy"},
+{fg: "#47cf16", bg: "#b830e9", txt: "solar power"},
+{fg: "#a6c20d", bg: "#593df2", txt: "special populations"},
+{fg: "#765eba", bg: "#89a145", txt: "stem cell research"},
+{fg: "#a31b29", bg: "#5ce4d6", txt: "stereotype"},
+{fg: "#1ff394", bg: "#e00c6b", txt: "stereotypes"},
+{fg: "#90bff5", bg: "#6f400a", txt: "subsidized housing"},
+{fg: "#2a0088", bg: "#d5ff77", txt: "sustainable construction"},
+{fg: "#87e081", bg: "#781f7e", txt: "systemic"},
+{fg: "#beb242", bg: "#414dbd", txt: "they/them"},
+{fg: "#24a4f7", bg: "#db5b08", txt: "tile drainage"},
+{fg: "#473801", bg: "#b8c7fe", txt: "trans"},
+{fg: "#35e460", bg: "#ca1b9f", txt: "transexual"},
+{fg: "#54019a", bg: "#abfe65", txt: "transgender"},
+{fg: "#445390", bg: "#bbac6f", txt: "transitional housing"},
+{fg: "#d659bf", bg: "#29a640", txt: "trauma"},
+{fg: "#0c3104", bg: "#f3cefb", txt: "traumatic"},
+{fg: "#56be71", bg: "#a9418e", txt: "tribal"},
+{fg: "#97a6ae", bg: "#685951", txt: "two-spirit"},
+{fg: "#7ea4d1", bg: "#815b2e", txt: "ultraprocessed foods"},
+{fg: "#e95786", bg: "#16a879", txt: "unconscious bias"},
+{fg: "#704084", bg: "#8fbf7b", txt: "under appreciated"},
+{fg: "#741009", bg: "#8beff6", txt: "under represented"},
+{fg: "#d1d853", bg: "#2e27ac", txt: "under served"},
+{fg: "#401496", bg: "#bfeb69", txt: "underprivileged"},
+{fg: "#7134f9", bg: "#8ecb06", txt: "underrepresentation"},
+{fg: "#90979e", bg: "#6f6861", txt: "underrepresented"},
+{fg: "#285c17", bg: "#d7a3e8", txt: "underserved"},
+{fg: "#4ccd4b", bg: "#b332b4", txt: "understudied"},
+{fg: "#403360", bg: "#bfcc9f", txt: "undervalued"},
+{fg: "#c9bb57", bg: "#3644a8", txt: "vaccines"},
+{fg: "#96d497", bg: "#692b68", txt: "victim"},
+{fg: "#a91559", bg: "#56eaa6", txt: "victims"},
+{fg: "#25890d", bg: "#da76f2", txt: "vulnerable"},
+{fg: "#a8b831", bg: "#5747ce", txt: "vulnerable populations"},
+{fg: "#95ec88", bg: "#6a1377", txt: "water collection"},
+{fg: "#04f770", bg: "#fb088f", txt: "water conservation"},
+{fg: "#6b1982", bg: "#94e67d", txt: "water distribution"},
+{fg: "#f95814", bg: "#06a7eb", txt: "water efficiency"},
+{fg: "#5e61bb", bg: "#a19e44", txt: "water management"},
+{fg: "#1d7224", bg: "#e28ddb", txt: "water pollution"},
+{fg: "#a111f1", bg: "#5eee0e", txt: "water quality"},
+{fg: "#f49577", bg: "#0b6a88", txt: "water storage"},
+{fg: "#2eb3ec", bg: "#d14c13", txt: "water treatment"},
+{fg: "#b17da5", bg: "#4e825a", txt: "wind power"},
+{fg: "#56609a", bg: "#a99f65", txt: "woman"},
+{fg: "#8267a0", bg: "#7d985f", txt: "women"},
+{fg: "#f1d833", bg: "#0e27cc", txt: "women and underrepresented"},
 ];
