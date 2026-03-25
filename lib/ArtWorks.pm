@@ -2,18 +2,42 @@ package ArtWorks;
 
 use strict;
 
+sub new_from_file {
+  my ($class, $filename) = @_;
+
+  open my $IN, '<', $filename or die "$! $filename\n";
+
+  my $obj = {};
+  bless $obj, $class;
+
+  while (<$IN>){
+    $obj->add_data_from_pipe_separated_line($_);
+  }
+  close $IN;
+
+  bless $obj, $class;
+}
+
 sub new_from_str {
   my ($class, $str) = @_;
 
-  # expects pipe separated variables
-
-  my $obj;
-  for my $line (split "\n", $str){
-    my ($id, @fields) = split '\|', $line;
-    next unless $id;
-    $obj->{data}->{$id} = \@fields;
-  }
+  my $obj = {};
   bless $obj, $class;
+
+  for my $line (split "\n", $str){
+    $obj->add_data_from_pipe_separated_line($line);
+  }
+  return $obj;
+}
+
+sub add_data_from_pipe_separated_line {
+  my ($obj, $line) = @_;
+
+  chomp $line;
+  # expects pipe separated fields
+  my ($id, @fields) = split '\|', $line;
+  return unless $id;
+  $obj->{data}->{$id} = \@fields;
 }
 
 sub item {
