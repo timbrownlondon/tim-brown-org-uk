@@ -10,7 +10,7 @@ my $url = 'https://s.tim-brown.org.uk/t';
 
 while (<>){
   chomp;
-  my $title =  $AW->title($_);
+  my $title =  $AW->plain_title($_);
   die $title if $title =~ m/"/;
 
   print '<a href="/img/', $_, '">';
