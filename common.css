@@ -30,7 +30,9 @@ label{height:20px;}
   padding: 4px 10px;
   border-radius: 6px;
   font-size: 0.85rem;
-  white-space: nowrap;
+  white-space: normal;
+  max-width: 300px;
+  text-align: center;
   pointer-events: none;
   transition: opacity 0.2s;
   transform: translateX(-50%);
