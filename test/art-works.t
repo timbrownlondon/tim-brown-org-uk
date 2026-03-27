@@ -7,7 +7,7 @@ use_ok 'ArtWorks';
 
 my $str = q(
 d50ef5|Rail lines North of Wandsworth Road Station|Ink and wash on paper 9 x 14 cm||
-887aa0|<i>Magnetic Fields</i> by Takis at the Tate Modern 2019|Ink on paper 14 x 20 cm||
+887aa0|<i>Magnetic Fields</i> by Takis|Ink on paper 14 x 20 cm||
 baf316|Sissinghurst Castle Garden|Ink and wash on paper 9 x 14 cm||
 4e494b|The Imperial War Museum, SE1|Ink and wash on paper 9 x 14 cm||
 a4bd86|<i>Bagdad Car</i> by Jeremy Deller at the Imperial War Museum|Ink and wash on paper 9 x 14 cm||
@@ -24,6 +24,7 @@ isa_ok $AW, 'ArtWorks';
 print Dumper $AW;
 
 is ($AW->title('baf316'), 'Sissinghurst Castle Garden', 'title() for item OK');
+is ($AW->plain_title('887aa0'), 'Magnetic Fields by Takis', 'plain_title() for item OK');
 is ($AW->desc('3f9859'), 'Ink and wash on paper', 'desc() for item OK');
 
 

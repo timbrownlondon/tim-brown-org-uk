@@ -42,7 +42,6 @@ sub add_data_from_pipe_separated_line {
 
 sub item {
   my ($self, $id) = @_;
-
   $self->{data}->{$id};
 }
 
@@ -54,6 +53,11 @@ sub field {
 sub title {
   my ($self, $id) = @_;
   $self->field($id,0);
+}
+
+sub plain_title {
+  my ($self, $id) = @_;
+  $self->title($id) =~ s/<[^>]+>//gr;
 }
 
 sub desc {
