@@ -23,6 +23,19 @@ label{height:20px;}
 .chevron {color:#ccc;padding:6px;font-size:26px;}
 .chevron a {color:#000;text-decoration: none;}
 
+#gallery-tip {
+  position: absolute;
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.2s;
+  transform: translateX(-50%);
+}
+
 nav {
   display: flex;
   justify-content: space-between;
