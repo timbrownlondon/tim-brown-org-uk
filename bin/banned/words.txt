@@ -89,10 +89,6 @@ cultural sensitivity
 culturally appropriate
 culturally responsive
 definition
-DEI
-DEIA
-DEIAB
-DEIJ
 diesel
 dietary guidelines
 disabilities
@@ -115,14 +111,18 @@ diversify
 diversifying
 diversity
 diversity and inclusion
-EEJ
-EJ
+diversity equity inclusion
+diversity equity inclusion accessibility
+diversity equity inclusion accessibility belonging
+diversity equity inclusion justice
 elderly
 electric vehicle
 energy conversion
 enhance the diversity
 enhancing diversity
 entitlement
+environmental and ecological justice
+environmental justice
 environmental justice
 environmental quality
 equal opportunity
@@ -232,8 +232,8 @@ MSI
 msm
 multicultural
 Mx
-Native American
-NCI budget
+national cancer institute budget
+native american
 net-zero
 non-binary
 non-conforming
@@ -248,21 +248,21 @@ oppression
 oppressive
 orientation
 pansexual
-PCB
 peanut allergies
 people + uterus
 people of color
 people-centered care
+perfluorooctanoic acid
 person-centered
 person-centered care
-PFAS
-PFOA
 photovoltaic
 polarization
 political
 pollution
 pollution abatement
 pollution remediation
+polychlorinated biphenyl
+polyfluoroalkyl substances
 prefabricated housing
 pregnant people
 pregnant person
