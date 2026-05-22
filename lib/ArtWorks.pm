@@ -47,6 +47,7 @@ sub item {
 
 sub field {
   my ($self, $id, $n) = @_;
+  warn "I don't have item $id\n" unless $self->item($id);
   $self->item($id)->[$n];
 }
 
