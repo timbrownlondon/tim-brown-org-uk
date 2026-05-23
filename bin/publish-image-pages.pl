@@ -69,7 +69,7 @@ sub build_media_element {
   my ($id, $title, $ext) = @_;
 
   return
-    '<video controls autoplay muted loop class="responsive">' .
+    '<video controls controlsList="novolume" autoplay muted loop class="responsive">' .
     '<source type="video/mp4" src="https://s.tim-brown.org.uk/t/'. $id . '/large.mp4" class="responsive" alt="'. $title . '">' .
     '</video>' if $ext eq 'mp4';
 
