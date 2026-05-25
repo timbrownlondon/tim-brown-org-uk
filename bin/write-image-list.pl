@@ -13,7 +13,9 @@ while (<>){
   my $title =  $AW->plain_title($_);
   die $title if $title =~ m/"/;
 
-  print '<a href="/img/', $_, '">';
+  print '<a href="/img/', $_, '"';
+  print ' class="vid"' if $AW->is_video($_);
+  print  '>';
   print '<img src="', $url, '/', $_, '/medium.jpg" alt="', $title, '">';
   print "</a>\n";
 }
