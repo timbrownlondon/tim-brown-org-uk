@@ -23,6 +23,21 @@ label{height:20px;}
 .chevron {color:#ccc;padding:6px;font-size:26px;}
 .chevron a {color:#000;text-decoration: none;}
 
+.vid { position: relative; display: inline-block; }
+.vid img { display: block; }
+.vid::after {
+  content: '\25B6';
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  font-size: 30px;
+  color: white;
+  line-height: 1;
+  text-shadow: 0 0 15px #320;
+  transition: transform 0.2s ease;
+  pointer-events: none; /* Let clicks pass through to the container */
+}
+
 #gallery-tip {
   position: absolute;
   background: rgba(0,0,0,0.75);
