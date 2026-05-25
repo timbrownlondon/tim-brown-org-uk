@@ -26,7 +26,7 @@ label{height:20px;}
 .vid { position: relative; display: inline-block; }
 .vid img { display: block; }
 .vid::after {
-  content: '\25B6';
+  content: '\25B7';
   position: absolute;
   top: 43px;
   left: 30px;
@@ -37,6 +37,8 @@ label{height:20px;}
   transition: transform 0.2s ease;
   pointer-events: none; /* Let clicks pass through to the container */
 }
+
+.vid:hover::after {transform: scale(1.2);}
 
 #gallery-tip {
   position: absolute;
