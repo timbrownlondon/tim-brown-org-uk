@@ -28,7 +28,7 @@ label{height:20px;}
 .vid::after {
   content: '\25B6';
   position: absolute;
-  top: 40px;
+  top: 43px;
   left: 30px;
   font-size: 30px;
   color: white;
