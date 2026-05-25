@@ -61,6 +61,11 @@ sub plain_title {
   $self->title($id) =~ s/<[^>]+>//gr;
 }
 
+sub is_video {
+  my ($self, $id) = @_;
+  $self->field($id, 2) eq 'mp4';
+}
+
 sub desc {
   my ($self, $id) = @_;
   $self->field($id,1);
