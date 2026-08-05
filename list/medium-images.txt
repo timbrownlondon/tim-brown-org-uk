@@ -26,6 +26,7 @@ t/04c062/medium.jpg
 t/050f47/medium.jpg
 t/05a1f3/medium.jpg
 t/061389/medium.jpg
+t/067406/medium.jpg
 t/0707b3/medium.jpg
 t/070f9c/medium.jpg
 t/072370/medium.jpg
