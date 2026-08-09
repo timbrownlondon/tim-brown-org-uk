@@ -30,7 +30,7 @@ my $collection_names = {
 	'childrens-art' => 'Children\'s Art',
 	'letters-numbers' => 'Letters, Numbers &amp; Words',
 	disgrace => 'Disgracefully Cavalier',
-	'40th' => '40th anniversary pictures',
+	'40th' => '40th Anniversary Pictures',
 	misc => 'Atelier',
 	flag => "St George's Flag",
 };
