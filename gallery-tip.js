@@ -1,6 +1,7 @@
 const tip = document.createElement('div');
-tip.id = 'gallery-tip';
 document.body.appendChild(tip);
+tip.id = 'gallery-tip';
+tip.style.opacity = 0;
 
 document.querySelectorAll('#gallery a').forEach(a => {
   const img = a.querySelector('img');
