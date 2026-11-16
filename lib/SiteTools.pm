@@ -33,6 +33,7 @@ my $collection_names = {
 	'40th' => '40th Anniversary Pictures',
 	misc => 'Atelier',
 	flag => "St George's Flag",
+	'winter-2026' => 'Winter 2026',
 };
 
 sub new {
