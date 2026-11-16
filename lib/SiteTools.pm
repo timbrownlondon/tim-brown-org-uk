@@ -57,7 +57,7 @@ sub dirs {
 sub dirs_for_homepage {
   my $self = shift;
 
-  shuffle grep { !/^(misc|flag|40th)$/ } keys %{$self->{names}};
+  shuffle grep { !/^(misc|flag|40th|banned)$/ } keys %{$self->{names}};
 }
 
 sub links_for_menu {
