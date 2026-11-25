@@ -56,7 +56,7 @@ for (@data){
 
   my $content = fill_template($template, $id, $title, $desc, $media, $links, $include->{$id});
 
-  open my $out, '>', $output_file or die $!;
+  open my $out, '>', $output_file or die "$output_file : $!";
   print  $out $content;
   close $out;
 
